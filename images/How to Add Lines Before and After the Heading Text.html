@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<!-- saved from url=(0087)https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html -->
+<html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google Tag Manager -->
+	<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211150101/reactive_library_fy2021.js"></script><script src="https://partner.googleadservices.com/gampad/cookie.js?domain=www.w3docs.com&amp;callback=_gfp_s_&amp;client=ca-pub-1328390942002432&amp;cookie=ID%3Dd23582316ea3d7f7-22ee1b6e2ad700a1%3AT%3D1668710580%3ART%3D1668710580%3AS%3DALNI_MZL4z155K2VnPl7I4TaCU6HOVZ6Hw&amp;gpic=UID%3D00000b21b4f7d7f7%3AT%3D1668710580%3ART%3D1668756825%3AS%3DALNI_MaAT1Jyi9rYycJp0EovAC6Fhs2DgQ&amp;gpid_exp=1"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-F5V1PV0TB3&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/Km9gKuG06He-isPsP6saG8cn/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-tL/88+JE9Mv/pJzkZt5DBcS7efRA2LrT4YX0Htu8Rnmat69OIBwraynHJm/fWfbH"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202211150101/show_ads_impl_fy2021.js" id="google_shimpl"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-56G6JZ3"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-56G6JZ3');</script>
+	<!-- End Google Tag Manager -->
+	
+	<title>How to Add Lines Before and After the Heading Text</title>
+	<meta name="description" content="If you are tired of standard heading styles then read this snippet and learn to add lines before and after heading giving it an attractive and unique style.">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="manifest" href="https://www.w3docs.com/manifest.json">
+	<link rel="apple-touch-icon" href="https://www.w3docs.com/images/logos/192.png">
+	<meta name="theme-color" content="#42444e">
+	<link rel="shortcut icon" href="https://www.w3docs.com/favicon.ico">
+
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;display=optional" as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&amp;display=optional">
+
+		<link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;display=optional" as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;display=optional">
+	
+			<link rel="preload" href="https://www.w3docs.com/build/images/logo-color-w3.png" as="image">
+	
+		
+				<link rel="canonical" href="https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html">
+	
+	<meta property="og:url" content="https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html">
+
+		<link rel="alternate" href="https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html" hreflang="en">
+
+							<link rel="alternate" href="https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html" hreflang="x-default">
+					
+		<meta property="og:type" content="article">
+	<meta property="og:title" content="How to Add Lines Before and After the Heading Text">
+	<meta property="og:description" content="If you are tired of standard heading styles then read this snippet and learn to add lines before and after heading giving it an attractive and unique style.">
+	<meta property="og:image" content="https://www.w3docs.com/uploads/media/snippet_gallery/0001/04/2c73c858a5317b5a738edf40d597fa18049c137e.png">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@w3docs">
+	<meta name="twitter:title" content="How to Add Lines Before and After the Heading Text">
+	<meta name="twitter:description" content="If you are tired of standard heading styles then read this snippet and learn to add lines before and after heading giving it an attractive and unique style.">
+	<meta name="twitter:image" content="		https://www.w3docs.com/uploads/media/snippet_gallery/0001/04/2c73c858a5317b5a738edf40d597fa18049c137e.png
+	">
+
+				<link rel="stylesheet" href="./How to Add Lines Before and After the Heading Text_files/tailwind.542c9124.css">
+	
+	<style>.demo {
+  user-select: none;
+}
+
+.demo strong {
+  font-family: sans-serif;
+  margin: 10px auto;
+  color: #228B22;
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  position: relative;
+  display: block;
+}
+
+.demo strong:before,
+.demo strong:after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  top: 50%;
+  position: absolute;
+}
+
+.demo strong:before {
+  left: 0;
+}
+
+.demo strong:after {
+  right: 0;
+}
+
+@media (max-width:767px) {
+  .demo strong:after,
+  .demo strong:before {
+    width: 40px;
+  }
+}</style>
+
+				<script src="./How to Add Lines Before and After the Heading Text_files/runtime.9051a942.js.download" defer=""></script><script src="./How to Add Lines Before and After the Heading Text_files/app.7c6aed06.js.download" defer=""></script>
+	
+																																													<script src="./How to Add Lines Before and After the Heading Text_files/feedback.cfc11ca3.js.download" defer=""></script>
+
+	<meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="https://adservice.google.com.ng/adsid/integrator.js?domain=www.w3docs.com" as="script"><script type="text/javascript" src="https://adservice.google.com.ng/adsid/integrator.js?domain=www.w3docs.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.w3docs.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.w3docs.com"></script><script async="" src="https://fundingchoicesmessages.google.com/i/ca-pub-1328390942002432?ers=2"></script><style>.ff-hovered{border:2px solid #ffda16!important;border-style:dotted!important}.ff-tooltiptext{display:none;white-space:nowrap;text-align:center;position:fixed;z-index:100000000000;font-family:sans-serif;width:auto;height:auto}.ff-tooltiptext table{border-collapse:collapse!important;border:none!important}.ff-tooltiptext tr td,.ff-tooltiptext tr th{padding:3px!important;background-color:#000!important;font-size:10px!important;border:1px solid #ffda16!important}.ff-tooltiptext tr th{color:#ffda16!important}.ff-tooltiptext tr td{color:#fff!important}</style></head>
+<body><span class="ff-tooltiptext" id="ff-tooltiptext" style="display: none; top: 51px; left: 1036px;"><table>
+			<tbody><tr>
+				<th>Property</th>
+				<th>Value</th>
+			</tr>
+			<tr>
+				<td>color</td>
+				<td>rgb(59, 130, 246)</td>
+			</tr>
+			<tr>
+				<td>background-color</td>
+				<td> rgba(0, 0, 0, 0)</td>
+			</tr>
+			<tr>
+				<td>font-family</td>
+				<td> Nunito</td>
+			</tr>
+			<tr>
+				<td>font-size</td>
+				<td> 16px</td>
+			</tr>
+			<tr>
+				<td>line-height</td>
+				<td> 24px</td>
+			</tr>
+			<tr>
+				<td>vertical-align</td>
+				<td> baseline</td>
+			</tr>
+			<tr>
+				<td>letter-spacing</td>
+				<td> normal</td>
+			</tr>
+			<tr>
+				<td>word-spacing</td>
+				<td> 0px</td>
+			</tr>
+			<tr>
+				<td>font-weight</td>
+				<td> 400</td>
+			</tr>
+			<tr>
+				<td>font-style</td>
+				<td> normal</td>
+			</tr>
+			<tr>
+				<td>font-variant</td>
+				<td> normal</td>
+			</tr>
+			<tr>
+				<td>text-transform</td>
+				<td> none</td>
+			</tr>
+			<tr>
+				<td>text-decoration</td>
+				<td> none solid rgb(59, 130, 246)</td>
+			</tr>
+			<tr>
+				<td>text-align</td>
+				<td> left</td>
+			</tr>
+			<tr>
+				<td>text-indent</td>
+				<td> 0px</td>
+			</tr>
+		</tbody></table></span>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56G6JZ3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="font-nunito" style="height: auto !important;">
+	<div class="fixed w-full h-16 bg-blue-steel text-white flex justify-center z-50 border-b border-gray-700 print:hidden">
+		<header class="container flex justify-between max-w-6xl items-center px-4 layout-header"><a aria-label="logo" href="https://www.w3docs.com/"><img src="https://www.w3docs.com/build/images/logo-color-w3.png" alt="w3docs logo" width="146" height="41"></a><form role="search" action="https://www.w3docs.com/search" target="_top"><div><input class="bg-blue-steel text-white border-solid border-0 border-b border-white outline-0 focus:ring-0 px-2 py-1" type="search" name="q" required="" aria-label="search input" placeholder="Search" value=""><button type="submit" aria-label="search button"></button></div></form><div class="hidden navbar lg:block"><nav><ul class="hidden md:flex md:gap-8 items-center"><li><div class="dropdown"><button class="dropbtn flex items-center hover:text-blue-500">
+								Books
+							</button><div class="dropdown-content bg-blue-steel text-white"><a href="https://www.w3docs.com/learn-html.html">
+										Learn HTML
+									</a><a href="https://www.w3docs.com/learn-css.html">
+										Learn CSS
+									</a><a href="https://www.w3docs.com/learn-git.html">
+										Learn Git
+									</a><a href="https://www.w3docs.com/learn-javascript.html">
+										Learn Javascript
+									</a><a href="https://www.w3docs.com/learn-php.html">
+										Learn PHP
+									</a></div></div></li><li><div class="dropdown"><button class="dropbtn flex items-center hover:text-blue-500">
+								Exercises
+							</button><div class="dropdown-content bg-blue-steel text-white"><a href="https://www.w3docs.com/exercise/html">
+										HTML
+									</a><a href="https://www.w3docs.com/exercise/javascript">
+										JavaScript
+									</a><a href="https://www.w3docs.com/exercise/git">
+										Git
+									</a><a href="https://www.w3docs.com/exercise/css">
+										CSS
+									</a><a href="https://www.w3docs.com/exercise/php">
+										PHP
+									</a></div></div></li><li><a href="https://www.w3docs.com/course" aria-current="page" class="nav-link text-decoration-none hover:text-blue-500 nuxt-link-exact-active nuxt-link-active">
+							Courses
+						</a></li><li><a href="https://www.w3docs.com/quiz/" class="hover:text-blue-500">Quizzes</a></li><li><a href="https://www.w3docs.com/snippets" class="hover:text-blue-500">Snippets</a></li><li><a href="https://www.w3docs.com/tool/" class="hover:text-blue-500">Tools</a></li></ul></nav></div></header>
+	</div>
+
+				<div class="hidden xl:block fixed bg-blue-steel text-white w-60 pt-16 h-full z-10 overflow-auto left-aside">
+			<div class="fixed h-full overflow-y-auto px-4 pb-36 pt-4">
+					<nav class="snippet-left-menu left-menu">
+		        <ul class="w-52">
+            
+                            <li class="first">        <span class="inline-block pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">Books</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/learn-html.html">Learn HTML</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-css.html">Learn CSS</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-git.html">Learn Git</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-javascript.html">Learn Javascript</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/learn-php.html">Learn PHP</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="inline-block pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">How To</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/snippets/nodejs.html">How To NodeJs</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/linux.html">How To Linux</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/angularjs.html">How To AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/php.html">How To PHP</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/html.html">How To HTML</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/css.html">How To CSS</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/symfony.html">How To Symfony</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/google-maps.html">How To Google Maps</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/git.html">How To Git</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/apache.html">How To Apache</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/javascript.html">How To JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/java.html">How To Java</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/snippets/vue-js.html">How To Vue.js</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+	</nav>
+			</div>
+		</div>
+	
+	<div class="xl:ml-60 pt-16 min-h-screen" style="height: auto !important; min-height: 0px !important;">
+
+		<div class="grid grid-cols-12 gap-4" style="height: auto !important;">
+			<div class="col-span-12 md:col-span-9 scroll-pt-16">
+					<div class="print:text-black print:bg-white">
+						<div class="p-4 lg:p-8">
+				
+		<div class="text-center my-2 print:hidden" style="max-width: 728px;">
+			<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Top Chapter -->
+			<ins class="adsbygoogle top-ad-horizontal" style="display: inline-block; width: 728px; height: 90px;" data-ad-client="ca-pub-1328390942002432" data-ad-slot="5595814444" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 90px; width: 728px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:728px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./How to Add Lines Before and After the Heading Text_files/ads.html" data-google-container-id="a!2" data-google-query-id="CPqsv7ad4vsCFZO67QodGO4AMA" data-load-complete="true"></iframe></div></ins>
+			<script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+		<ol itemscope="" itemtype="https://schema.org/BreadcrumbList" class="flex gap-2 my-4">
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a itemtype="https://schema.org/Thing" itemprop="item" href="https://www.w3docs.com/snippets" class="text-blue-600">
+			<span itemprop="name">Snippets</span></a>
+		<meta itemprop="position" content="1">
+	</li>
+	<li>›</li>
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a itemprop="item" href="https://www.w3docs.com/snippets/css.html" class="text-blue-600">
+			<span itemprop="name">CSS</span></a>
+		<meta itemprop="position" content="2">
+	</li>
+	<li>›</li>
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a itemprop="item" href="https://www.w3docs.com/snippets/css/how-to-add-lines-before-and-after-heading-text.html" class="text-gray-800">
+			<span itemprop="name">How to Add Lines Before and After the Heading Text</span></a>
+		<meta itemprop="position" content="3">
+	</li>
+</ol>
+
+
+		<div class="prose lg:prose-lg max-w-none main-content">
+			<h1 class="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl mt-6 md:mt-8 lg:mt-12 mb-1 lg:mb-2 xl:mb-4 text-gray-800 font-poppins font-bold">How to Add Lines Before and After the Heading Text</h1>
+
+			
+			<div class="snippet-container">
+															
+	
+	<p>You want to give the headings of your pages an original and attractive style, but you don’t know how? Read this snippet, and you'll learn to add lines before and after the headings. You can get such an effect by using the <a href="https://www.w3docs.com/learn-css/before.html">::before</a> and <a href="https://www.w3docs.com/learn-css/after.html">::after</a> pseudo-elements. Let’s do it together step by step.</p>
+
+
+			<p></p><div class="alert alert-info">
+<a id="cta-course-7" href="https://www.w3docs.com/course/css-the-complete-guide-2020-incl-flexbox-grid-sass" style="text-decoration: none;  display: flex; align-items: center;" class="cta-course" target="_blanck">
+<img alt="Watch a course" src="./How to Add Lines Before and After the Heading Text_files/youtube.svg" width="20" height="20" style="margin-right: 16px; margin-bottom: 0;  margin-top: 0">
+<span class="hidden md:block">Watch a video course </span> &nbsp; <strong>CSS - The Complete Guide (incl. Flexbox, Grid &amp; Sass)</strong>
+</a>
+</div><p></p>
+	
+
+
+
+
+																				
+	
+	<h2 id="create-html-2" class="scroll-mt-20">Create HTML</h2>
+
+
+
+
+
+
+																				
+	
+	<ul>
+<li>Put your heading text within the <a href="https://www.w3docs.com/learn-html/html-h1-h6-tags.html">&lt;h1&gt;</a> element.</li>
+</ul>
+
+
+
+
+
+
+																				
+	
+	<div class="relative mb-5" itemscope="" itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="How to Add Lines Before and After Text">
+		<div itemprop="text"><pre class="not-prose text-sm text-white" style="max-height: 550px; background-color:  #011627; word-break: break-word;
+    word-wrap: break-word; padding: 0 6px; font-size: 0.9rem"><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Welcome!<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></code></pre></div>
+
+		
+			</div>
+
+
+
+
+
+
+
+																				
+	
+	<h2 id="add-css-5" class="scroll-mt-20">Add CSS</h2>
+
+
+
+
+
+
+																				
+	
+	<ul>
+<li>Put the font and font-size of the heading with the <a href="https://www.w3docs.com/learn-css/font-family.html">font-family</a> and <a href="https://www.w3docs.com/learn-css/font-size.html">font-size</a> properties.</li> 
+<li>Align the heading to the center with the "center" value of the  <a href="https://www.w3docs.com/learn-css/text-align.html">text-align</a> property.</li>
+<li>Create space around the heading with the <a href="https://www.w3docs.com/learn-css/margin.html">margin</a> property.</li>  
+<li>We will add a line before the heading through the ::before pseudo-element and  then, specify the the <a href="https://www.w3docs.com/learn-css/color.html">color</a> of the text.</li>
+<li>Put the <a href="https://www.w3docs.com/learn-css/content.html">content</a> property, which is always used with the ::before and ::after pseudo-elements to generate content inside an element.</li>
+<li>Set the <a href="https://www.w3docs.com/learn-css/height.html">height</a> and <a href="https://www.w3docs.com/learn-css/width.html">width</a> of the line according to your text.</li> 
+<li>You can give the line a color using the <a href="https://www.w3docs.com/learn-css/css-background.html">background</a> property.</li>
+<li>Define the top and left positions of the line with the <a href="https://www.w3docs.com/learn-css/top.html">top</a> and <a href="https://www.w3docs.com/learn-css/left.html">left</a> properties.</li> 
+<li>For styling the ::after pseudo-element, use the same properties above. Only instead of the left property, you need to set the <a href="https://www.w3docs.com/learn-css/right.html">right</a> property.</li>
+</ul>
+
+
+
+
+
+
+																				
+	
+	<div class="relative mb-5" itemscope="" itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="How to Add Lines Before and After Text">
+		<div itemprop="text"><pre class="not-prose text-sm text-white" style="max-height: 550px; background-color:  #011627; word-break: break-word;
+    word-wrap: break-word; padding: 0 6px; font-size: 0.9rem"><code class="hljs css"><span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">font-family</span>: sans-serif;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">100px</span> auto;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#228B22</span>;
+  <span class="hljs-attribute">text-align</span>: center;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">30px</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
+  <span class="hljs-attribute">position</span>: relative;
+}
+
+<span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:before</span> {
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">120px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">2px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+}
+
+<span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:after</span> {
+  <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">120px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">2px</span>;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#000</span>;
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">position</span>: absolute;
+}</code></pre></div>
+
+		
+			</div>
+
+
+
+
+
+
+
+																				
+	
+	<p>Now let’s put the whole code together and try some examples.</p>
+
+
+
+
+
+
+																				
+	
+	<h3 id="example-of-adding-lines-before-and-after-the-heading-text-9" class="scroll-mt-20">Example of adding lines before and after the heading text:</h3>
+
+
+
+
+
+
+																				
+	
+	<div class="relative mb-5" itemscope="" itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Example of adding lines before and after the heading text:">
+		<div itemprop="text"><pre class="not-prose text-sm text-white" style="max-height: 550px; background-color:  #011627; word-break: break-word;
+    word-wrap: break-word; padding: 0 6px; font-size: 0.9rem"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Title of the document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css">
+      <span class="hljs-selector-tag">h1</span> {
+        <span class="hljs-attribute">font-family</span>: sans-serif;
+        <span class="hljs-attribute">margin</span>: <span class="hljs-number">100px</span> auto;
+        <span class="hljs-attribute">color</span>: <span class="hljs-number">#228B22</span>;
+        <span class="hljs-attribute">text-align</span>: center;
+        <span class="hljs-attribute">font-size</span>: <span class="hljs-number">30px</span>;
+        <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
+        <span class="hljs-attribute">position</span>: relative;
+      }
+      <span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:before</span> {
+        <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+        <span class="hljs-attribute">display</span>: block;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">130px</span>;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">5px</span>;
+        <span class="hljs-attribute">background</span>: <span class="hljs-number">#191970</span>;
+        <span class="hljs-attribute">left</span>: <span class="hljs-number">0</span>;
+        <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+        <span class="hljs-attribute">position</span>: absolute;
+      }
+      <span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:after</span> {
+        <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+        <span class="hljs-attribute">display</span>: block;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">130px</span>;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">5px</span>;
+        <span class="hljs-attribute">background</span>: <span class="hljs-number">#191970</span>;
+        <span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;
+        <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+        <span class="hljs-attribute">position</span>: absolute;
+      }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Welcome to W3Docs!<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a href="https://www.w3docs.com/tools/code-editor/8447" target="_blank" class="btn btn-green" itemprop="url">
+					Try it Yourself »
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																				
+	
+	<h3 class="">Result</h3>
+
+<div class="demo px-10 mt-5 mb-20">
+  <strong>Welcome to W3Docs!</strong>
+</div>
+
+
+<p>If you want the lines to be closer to the text, you need to change the left and right positions.</p>
+
+
+
+
+
+
+																				
+	
+	<h3 id="example-of-adding-horizontal-lines-before-and-after-the-text-12" class="scroll-mt-20">Example of adding horizontal lines before and after the text:</h3>
+
+
+
+
+
+
+																				
+	
+	<div class="relative mb-5" itemscope="" itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="Example of adding horizontal lines before and after the text:">
+		<div itemprop="text"><pre class="not-prose text-sm text-white" style="max-height: 550px; background-color:  #011627; word-break: break-word;
+    word-wrap: break-word; padding: 0 6px; font-size: 0.9rem"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Title of the document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css">
+      <span class="hljs-selector-tag">h1</span> {
+        <span class="hljs-attribute">font-family</span>: sans-serif;
+        <span class="hljs-attribute">margin</span>: <span class="hljs-number">100px</span> auto;
+        <span class="hljs-attribute">text-align</span>: center;
+        <span class="hljs-attribute">color</span>: black;
+        <span class="hljs-attribute">font-size</span>: <span class="hljs-number">40px</span>;
+        <span class="hljs-attribute">max-width</span>: <span class="hljs-number">600px</span>;
+        <span class="hljs-attribute">position</span>: relative;
+      }
+      <span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:before</span> {
+        <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+        <span class="hljs-attribute">display</span>: block;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">150px</span>;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">5px</span>;
+        <span class="hljs-attribute">background</span>: <span class="hljs-number">#CD5C5C</span>;
+        <span class="hljs-attribute">left</span>: <span class="hljs-number">85px</span>;
+        <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+        <span class="hljs-attribute">position</span>: absolute;
+      }
+      <span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:after</span> {
+        <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+        <span class="hljs-attribute">display</span>: block;
+        <span class="hljs-attribute">width</span>: <span class="hljs-number">150px</span>;
+        <span class="hljs-attribute">height</span>: <span class="hljs-number">5px</span>;
+        <span class="hljs-attribute">background</span>: <span class="hljs-number">#CD5C5C</span>;
+        <span class="hljs-attribute">right</span>: <span class="hljs-number">85px</span>;
+        <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+        <span class="hljs-attribute">position</span>: absolute;
+      }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Hello!<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a href="https://www.w3docs.com/tools/code-editor/8449" target="_blank" class="btn btn-green" itemprop="url">
+					Try it Yourself »
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+												</div>
+		</div>
+
+					<div class="tags print:hidden pt-5 my-5 border-t">
+									<a href="https://www.w3docs.com/snippets-tags/html" class="tag">html</a>
+									<a href="https://www.w3docs.com/snippets-tags/css" class="tag">css</a>
+									<a href="https://www.w3docs.com/snippets-tags/style" class="tag">style</a>
+									<a href="https://www.w3docs.com/snippets-tags/text" class="tag">text</a>
+									<a href="https://www.w3docs.com/snippets-tags/pseudo-elements" class="tag">pseudo-elements</a>
+							</div>
+		
+		<div>
+							<div class="flex">
+<div style="margin-right: 10px">
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432" crossorigin="anonymous" data-checked-head="true"></script>
+<!-- Snippet bottom -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-1328390942002432" data-ad-slot="1441002000" data-adsbygoogle-status="done"><div id="aswift_2_host" style="border: none; height: 280px; width: 336px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432" crossorigin="anonymous" data-checked-head="true"></script>
+<!-- Snippet bottom -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-1328390942002432" data-ad-slot="1441002000" data-adsbygoogle-status="done"><div id="aswift_3_host" style="border: none; height: 280px; width: 336px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+</div>
+					</div>
+
+				<div class="prose lg:prose-lg max-w-none">
+			<div class="related-resources"><h3>Related Resources</h3><ul><li><a href="https://www.w3docs.com/snippets/css/how-to-create-a-multicolor-text-in-html-and-css.html">
+							How to Create a Multicolor Text with HTML and CSS
+						</a></li><li><a href="https://www.w3docs.com/snippets/css/how-to-create-a-typewriter-text-with-only-css.html">
+							How to Create a Typewriter Text with Pure CSS
+						</a></li><li><a href="https://www.w3docs.com/snippets/css/how-to-create-a-blurry-text-in-css.html">
+							How to Create a Blurry Text in CSS
+						</a></li><li><a href="https://www.w3docs.com/snippets/css/how-to-create-a-glowing-text.html">
+							How To Create a Glowing Text
+						</a></li></ul></div>		</div>
+
+		<div class="flex justify-center print:hidden">
+	<div class="mt-5 border border-gray-300 rounded-lg text-center lg:w-2/3">
+		<div id="feedback-form-container" class="hidden p-10 p-md-20">
+			<strong class="text-2xl mb-8">Sorry about that</strong>
+			<input type="hidden" name="path" value="/feedback/vote-no/574/3">
+			<input type="hidden" name="token" value="6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr">
+			<div class="text-left">
+				<label class="mb-2" for="feedback-message">How can we improve it?</label>
+				<textarea id="feedback-message" name="message" required="" class="h-32 p-2 w-full"></textarea>
+				<div class="mt-2">
+					<input class="btn btn-blue" type="submit" value="Submit">
+				</div>
+			</div>
+
+			<div class="hidden success-container">
+				<h4 class="p-5 mb-8">Thanks for your feedback!</h4>
+			</div>
+		</div>
+
+		<div id="feedback-message-thanks" class="hidden py-16 text-2xl">
+			Thanks for your feedback!
+		</div>
+
+		<div id="feedback-action-container" class="p-8">
+			<div class="mb-8 block text-2xl">Do you find this helpful?</div>
+			<div>
+				<button id="feedback-positive-btn" class="btn btn-outline">
+					Yes
+				</button>
+				<button id="feedback-negative-btn" class="btn btn-outline">
+					No
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script async="" src="https://www.google.com/recaptcha/api.js?render=6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr"></script>
+
+	</div>
+				</div>
+			</div>
+
+										<div class="col-span-3 hidden md:block pl-2 pt-8 border-l border-gray-200 right-aside" style="height: auto !important;">
+						<!-- aside start -->
+			<div style="height: auto !important;"><div style="min-height: 600px;"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432" crossorigin="anonymous" data-checked-head="true"></script><!-- Right Side 1 --><ins class="adsbygoogle" style="display: block; height: 600px;" data-ad-client="ca-pub-1328390942002432" data-ad-slot="1048956047" data-ad-format="vertical" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_4_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 600px; width: 256px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_4" name="aswift_4" style="left:0;position:absolute;top:0;border:0;width:256px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="256" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./How to Add Lines Before and After the Heading Text_files/ads(1).html" data-google-container-id="a!5" data-google-query-id="CMuav7ad4vsCFc3U7QodGHQKVw" data-load-complete="true"></iframe></div></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class=" relative py-5 text-center" style="height:100%"><div class="quizzes-new" id="aside-quiz-block" style="margin: 20px auto; max-width: 200px;"><a class="how-to" href="https://www.w3docs.com/quiz/" style="display: block;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #ffffff;
+background: #202131;
+padding: 10px 20px;
+font-family: Poppins, sans-serif;
+font-style: normal;">
+  Quizzes
+  </a><div class="list" style="padding: 10px 0;   background: #F3F3F3;    display: flex;  align-items:center;   flex-direction: column;    gap: 10px;"><a href="https://www.w3docs.com/quiz-start/html-basic">
+      HTML Basic
+      </a><a href="https://www.w3docs.com/quiz-start/angular">     
+      Angular  Basic
+      </a><a href="https://www.w3docs.com/quiz-start/react">
+      React Basic
+      </a><a href="https://www.w3docs.com/quiz-start/git">
+      Git Basic
+      </a><a href="https://www.w3docs.com/quiz-start/css-basic">         
+      CSS Basic
+      </a><a href="https://www.w3docs.com/quiz-start/javascript-basic">         
+      JavaScript Basic
+      </a><a href="https://www.w3docs.com/quiz-start/ts-quiz">        
+      TypeScript Basic
+      </a><a href="https://www.w3docs.com/quiz-start/es6-basic">         
+      ES6 Basic
+      </a><a href="https://www.w3docs.com/quiz-start/vuejs">
+      Vue.js Basic
+      </a><a href="https://www.w3docs.com/quiz-start/php-basic">         
+      PHP Basic
+      </a></div></div></div></div><div style="position: sticky;  top: 100px;  margin-bottom: 35px;"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432" crossorigin="anonymous" data-checked-head="true"></script><!-- Content Sticky --><ins class="adsbygoogle" style="display: block; height: 600px;" data-ad-client="ca-pub-1328390942002432" data-ad-slot="8443800953" data-ad-format="vertical" data-adsbygoogle-status="done" data-ad-status="filled"><div id="aswift_5_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 600px; width: 256px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_5" name="aswift_5" style="left:0;position:absolute;top:0;border:0;width:256px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="256" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./How to Add Lines Before and After the Heading Text_files/ads(2).html" data-google-container-id="a!6" data-google-query-id="CKSN-Lad4vsCFYvw7QodlHAPGg" data-load-complete="true"></iframe></div></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>		<!-- aside end -->
+				</div>
+					</div>
+
+					<div class="bg-blue-steel text-white print:hidden">
+				<footer class="layout-footer">
+	<div class="p-6 inline-block lg:pl-20 w-full lg:w-11/12">
+
+		<div class="pb-4 hover:[&amp;&gt;ul&gt;li&gt;ul&gt;li&gt;a]:text-blue-400">
+			        <ul class="flex flex-wrap justify-start sm:justify-evenly gap-12 md:gap-16">
+            
+                            <li class="first">        <span class="text-blue-500 mb-4 block text-lg">Quizzes</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/quiz-start/html-basic">HTML Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/css-basic">CSS Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/javascript-basic">Javascript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/php-basic">PHP basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/es6-basic">ES6 Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/ts-quiz">TypeScript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/angular">Angular  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/react">React  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/sass">Sass  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/vuejs">Vue.js  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/quiz-start/git">Git  Basic</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/quiz-start/sql">SQL  Basic</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Snippets</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/snippets/nodejs.html">How To NodeJs</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/linux.html">How To Linux</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/angularjs.html">How To AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/php.html">How To PHP</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/html.html">How To HTML</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/css.html">How To CSS</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/symfony.html">How To Symfony</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/google-maps.html">How To Google Maps</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/git.html">How To Git</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/apache.html">How To Apache</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/javascript.html">How To JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/snippets/java.html">How To Java</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/snippets/vue-js.html">How To Vue.js</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Books</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/learn-html.html">Learn HTML</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-css.html">Learn CSS</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-git.html">Learn Git</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-javascript.html">Learn Javascript</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/learn-php.html">Learn PHP</a>        
+    </li>
+
+    
+                <li>        <span class="text-blue-500 mb-3 mt-5 block text-lg">Exercises</span>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/exercise/html">HTML</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/exercise/javascript">JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/exercise/git">Git</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/exercise/css">CSS</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/exercise/php">PHP</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Tools</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/keyboard">Typing Test</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/color-picker">Color Picker</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/html-encoder/">HTML Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/editor">HTML Editor</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/css3-maker/border-radius">CSS Maker</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/password-generator">Password Generator</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/image-base64">Base 64</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/tools/code-diff/">Code Diff</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="text-blue-500 mb-4 block text-lg">String Functions</span>                <ul class="flex flex-col gap-2 menu_level_1">
+            
+                <li class="first">        <a href="https://www.w3docs.com/tools/string-length-calculator">String Length Calculator</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-md5-generator">String to MD5 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-sha256-generator">String to Sha256 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-revers">String Reverse</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-url-encoder">URL Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-url-decoder">URL Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-base64-encoder">Base 64 Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-base64-decoder">Base 64 Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="https://www.w3docs.com/tools/string-remove-extra-spaces">Extra Spaces Remover</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/tools/string-convert-lowercase">String to Lowercase Converter</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+		</div>
+
+		<div class="py-8 border-t border-gray-700 flex gap-4 flex-col md:flex-row items-center md:justify-between">
+			<div>
+				        <ul class="flex gap-4">
+            
+                <li class="first">        <a href="https://www.w3docs.com/about-us">About Us</a>        
+    </li>
+
+    
+                <li class="last">        <a href="https://www.w3docs.com/privacy-policy">Privacy Policy for W3Docs</a>        
+    </li>
+
+
+    </ul>
+
+			</div>
+
+			<a href="https://www.w3docs.com/" aria-label="w3docs homepage">
+				<img src="https://www.w3docs.com/build/images/footer-logo.png" alt="logo" width="111" height="30">
+
+			</a>
+
+			<div class="flex gap-2">
+				<strong>Follow Us</strong>
+				<a id="follows-fb" href="https://www.facebook.com/w3docs" target="_blank" aria-label="follow on facebook" rel="noopener">
+					<img src="./How to Add Lines Before and After the Heading Text_files/facebook.svg" width="24" alt="facebook">
+				</a>
+
+				<a id="follows-tt" href="https://twitter.com/w3docs" target="_blank" aria-label="follow on twitter" rel="noopener">
+					<img src="./How to Add Lines Before and After the Heading Text_files/twitter.svg" width="24" alt="twitter">
+				</a>
+			</div>
+
+		</div>
+		<div class="pt-8 text-center border-t border-gray-700">
+			<small>Company © W3docs. All rights reserved.</small>
+		</div>
+	</div>
+</footer>
+
+			</div>
+			</div>
+
+</div>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./How to Add Lines Before and After the Heading Text_files/ads(3).html" data-google-container-id="a!1" data-load-complete="true"></iframe></div></ins><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./How to Add Lines Before and After the Heading Text_files/anchor.html" width="256" height="60" role="presentation" name="a-q39kr1mfeou8" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./How to Add Lines Before and After the Heading Text_files/saved_resource.html"></iframe></div><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;" src="./How to Add Lines Before and After the Heading Text_files/saved_resource(1).html"></iframe></body><iframe id="google_esf" name="google_esf" src="./How to Add Lines Before and After the Heading Text_files/zrt_lookup.html" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><div id="aswift_6_host" style="border: none; height: 657px; width: 1349px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins></html>
