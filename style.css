@@ -182,3 +182,6 @@ form p a{
     flex-direction: column;
     gap: 20px;
 }
+.top{
+    display: flex;
+}
