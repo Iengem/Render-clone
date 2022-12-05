@@ -184,4 +184,9 @@ form p a{
 }
 .top{
     display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: rgb(67,81,232);
 }
