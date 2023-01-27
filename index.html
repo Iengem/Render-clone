@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="top">
         <p>Announcement</p>
-        <a href="">Our Pricing structure will change on January 1, 2023. Read more on our new pricing page</a>
+        <a href="">Our Pricing has changed. Read more on our new pricing page.</a>
     </div>
     <nav>
         <img src="images/logo.svg" alt="logo">
@@ -20,10 +22,64 @@
             <a href="">Blog</a>
             <a href="">Docs</a>
             <a href="">Careers</a>
-            <a href="" class="start">GET STARTED</a>
-            <a href="">SIGN IN</a>
+            <a href="signup.html" target ='_blank' class="start">GET STARTED</a>
+            <a href="signin.html" target ='_blank'>SIGN IN</a>
+        </div>
+        <div class="menu">
+            <div class="menu_lines">
+                <div class="line"></div>
+                <div class="line1"></div>
+                <div class="line"></div>
+            </div>
         </div>
     </nav>
+    <div class="bar">
+        <div class="buttons">
+            <a href = 'signup.html' class="get-started">GET STARTED</a>
+            <a href= 'signin.html' class="sign_in">SIGN IN</a>
+            <h2>Product</h2>
+            <div class="features">
+                <div class="f-sec">
+                    <h2>FEATURES</h2>
+                    <p>Autoscaling</p>
+                    <p>Private Networking</p>
+                    <p>Managed PostgreSQL</p>
+                    <p>Managed Redis</p>
+                    <p>Persistent Disks</p>
+                    <p>Infrastructure as code</p>
+                    <p>Preview Environments</p>
+                    <p>Zero Downtime Deploys</p>
+                    <p>Render API</p>
+                </div>
+                <div class="f-sec">
+                    <h2>SERVICES</h2>
+                    <p>Static Sites</p>
+                    <p>Web Services</p>
+                    <p>Private Services</p>
+                    <p>Background Workers</p>
+                    <p>Cron Jobs</p>
+                    <p>PostgreSQL</p>
+                    <p>Redis</p>
+                </div>
+                <div class="f-sec">
+                    <h2>ENVIRONMENTS</h2>
+                    <div class="environ-grid">
+                        <img src="images/jsdash.svg" alt="pic">
+                        <img src="images/beaverdash.svg" alt="pic">
+                        <img src="images/pydash.svg" alt="pic">
+                        <img src="images/drop-dash.svg" alt="pic">
+                        <img src="images/diamond-dash.svg" alt="pic">
+                        <img src="images/r dash.svg" alt="pic">
+                        <img src="images/dock-dash.svg" alt="pic">
+                    </div>
+                </div>
+            </div>
+            <h2>Pricing</h2>
+            <h2>Blog</h2>
+            <h2>Docs</h2>
+            <h2>Careers</h2>
+        </div>
+    </div>
     <div class="hero">
         <div class="custom-shape-divider-bottom-1670243792">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -33,7 +89,7 @@
         <div class="firsthero">
             <h1>The fastest<br> way to host all<br> your cron jobs.</h1>
             <p>Render is a unified cloud to build and run your apps and websites with free TLS certificates, a global CDN, DDos protection, private networks, and auto deploy from Git.</p>
-            <a href="" class="start">GET STARTED FOR FREE</a>
+            <a href="signup.html" class="start">GET STARTED FOR FREE</a>
         </div>
         <div class="imgcont">
             <div class="custom-shape-divider-bottom-1670400552">
@@ -47,19 +103,21 @@
             <img src="images/disrupt.svg" alt="">
         </div>
     </div>
-    <div class="bhero">
-        <img src="images/anker.svg" alt="anker">
-        <img src="images/indie hackers.svg" alt="indiehackers">
-        <img src="images/cypress.svg" alt="cypress">
-        <img src="images/watershed.svg" alt="watershed">
-        <img src="images/jsdeliver.svg" alt="deliver">
-        <img src="images/mux.svg" alt="mux">
-        <img src="images/bloomscape.svg" alt="bloom">
-        <img src="images/clearbit.svg" alt="clearbit">
-        <img src="images/sourcegraph.svg" alt="graph">
-        <img src="images/99 designs.svg" alt="99">
-        <img src="images/near.svg" alt="near">
-        <img src="images/timescale.svg" alt="scale">
+    <div class="belowhero">
+        <div class="bhero">
+            <img src="images/anker.svg" alt="anker">
+            <img src="images/indie.svg" alt="indiehackers">
+            <img src="images/cypress.svg" alt="cypress">
+            <img src="images/watershed.svg" alt="watershed">
+            <img src="images/jsdeliver.svg" alt="deliver">
+            <img src="images/mux.svg" alt="mux">
+            <img src="images/bloomscape.svg" alt="bloom">
+            <img src="images/clearbit.svg" alt="clearbit">
+            <img src="images/sourcegraph.svg" alt="graph">
+            <img src="images/99 designs.svg" alt="99">
+            <img src="images/near.svg" alt="near">
+            <img src="images/timescale.svg" alt="scale">
+        </div>
     </div>
     <div class="midsec">
         <p>HOW RENDER WORKS</p>
@@ -90,13 +148,350 @@
                 <img src="images/step-01_1-abea1336487530885c1ccd6a0bb2a596.svg" alt="">
             </div>
         </div>
+        <div class="custom-shape-divider-top-1671085377">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="custom-shape-divider-bottom-1671085942">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
+        </svg></div>
     </div>
     <div class="bmidsec">
         <p>RUN ANYTHING</p>
         <h2>All Your Services in One Place</h2>
-        <div class="sec_card">
-            
+        <div class="sec_cards">
+            <div class="card">
+                <div class="imgsec">
+                    <img src="images/step1.PNG" class='first'alt="">
+                    <p>Web Services</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Web Services</h2>
+                    <p><i class="bi bi-check"></i> Django & Flask</p>
+                    <p><i class="bi bi-check"></i> Rails & Express</p>
+                    <p><i class="bi bi-check"></i> GraphQL & REST</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDEwOS40MyI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7Y2xpcC1wYXRoOnVybCgjYSk7fS5je2ZpbGw6IzA1MWQzMDt9LmR7ZmlsbDojNGY2NWYxO30uZXtmaWxsOiNmODY0OGM7fS5me2ZpbGw6I2ZmZGE1ZDt9Lmd7ZmlsbDojNWFlZGM1O308L3N0eWxlPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMjQ0NS0yNDkuMzNjLTYuMTIsMC0xMS42OS01LTExLjY5LTExLjEyczUtMTEuMTMsMTEuNjktMTEuMTMsMTEuNjgsNSwxMS42OCwxMS4xMy01LjU2LDExLjEyLTExLjY4LDExLjEyWk0tMjMwMS41LTMxMGMtMS4xMi04LjkxLTYuNjgtMTYuMTQtMTMuOTEtMjEuN2wtMi43OC0yLjIzLTIuMjMsMi43OWMtNC40NSw1LTYuMTIsMTMuOS01LjU2LDIwLjU4YTI5LjksMjkuOSwwLDAsMCw1LDEzLjkxYy0yLjIyLDEuMTEtNSwyLjIyLTcuMjMsMy4zNGE0Ny4wNSw0Ny4wNSwwLDAsMS0xNSwyLjIyaC0xNDQuMDhsLS41NiwzLjM0YTYyLjYzLDYyLjYzLDAsMCwwLDUsMzEuNzFsMi4yMiwzLjg5di41NmMxMy4zNiwyMi4yNSwzNy4yOCwzMi4yNiw2My40MiwzMi4yNiw1MC4wNywwLDkxLjI0LTIxLjY5LDExMC43MS02OC40MiwxMi43OS41NSwyNS41OS0yLjc4LDMxLjcxLTE1bDEuNjctMi43OC0yLjc4LTEuNjdjLTcuMjQtNC40NS0xNy4yNS01LTI1LjU5LTIuNzhabS03MS43Ny04LjkxSC0yMzk1djIxLjdoMjEuNjlabTAtMjcuMjVILTIzOTV2MjEuNjloMjEuNjlabTAtMjcuODJILTIzOTV2MjEuN2gyMS42OVptMjYuNyw1NS4wN2gtMjEuNjl2MjEuN2gyMS42OVptLTgwLjY2LDBoLTIxLjd2MjEuN2gyMS43di0yMS43Wm0yNy4yNiwwaC0yMS43djIxLjdoMjEuN1ptLTU0LDBoLTIxLjd2MjEuN2gyMS43di0yMS43Wm01NC0yNy4yNWgtMjEuN3YyMS42OWgyMS43Wm0tMjcuMjYsMGgtMjEuN3YyMS42OWgyMS43di0yMS42OVoiLz48L2NsaXBQYXRoPjwvZGVmcz48dGl0bGU+aWNvbi1zdGF0aWMtc2l0ZTwvdGl0bGU+PGcgY2xhc3M9ImIiPjxwYXRoIGNsYXNzPSJjIiBkPSJNLTI3NjQuOTEtNDk5LjY3SDQzMjYuOTNWMzQyLjU5SC0yNzY0LjkxWiIvPjwvZz48cGF0aCBjbGFzcz0iZCIgZD0iTTE1OS4xNSwwSDQwLjg1QTEzLjg2LDEzLjg2LDAsMCwwLDI3LDEzLjg1djEyLjZhNi4xNiw2LjE2LDAsMCwwLDYuMTUsNi4xNWgxMzMuN0E2LjE2LDYuMTYsMCwwLDAsMTczLDI2LjQ1VjEzLjg1QTEzLjg2LDEzLjg2LDAsMCwwLDE1OS4xNSwwWiIvPjxjaXJjbGUgY2xhc3M9ImUiIGN4PSI0Mi45NyIgY3k9IjE2Ljk2IiByPSI2LjMiLz48Y2lyY2xlIGNsYXNzPSJmIiBjeD0iNjUuMjciIGN5PSIxNi45NiIgcj0iNi4zIi8+PGNpcmNsZSBjbGFzcz0iZyIgY3g9Ijg3LjU3IiBjeT0iMTYuOTYiIHI9IjYuMyIvPjxwYXRoIGNsYXNzPSJnIiBkPSJNMTY2LjgxLDM5LjQ4SDMzLjE5QTYuMTksNi4xOSwwLDAsMCwyNyw0NS42N1Y5Ny4wNmExMi4zOCwxMi4zOCwwLDAsMCwxMi4zNiwxMi4zN0gxNjAuNjNBMTIuMzksMTIuMzksMCwwLDAsMTczLDk3LjA2VjQ1LjY3QTYuMTksNi4xOSwwLDAsMCwxNjYuODEsMzkuNDhaTTY2LjY5LDkwLjgzSDQyLjJhMy44MywzLjgzLDAsMCwxLDAtNy42Nkg2Ni42OWEzLjgzLDMuODMsMCwwLDEsMCw3LjY2Wk04OS43OCw3Ni40NUg0Mi4yYTMuODMsMy44MywwLDEsMSwwLTcuNjVIODkuNzhhMy44MywzLjgzLDAsMCwxLDAsNy42NVptMC0xNC4zN0g0Mi4yYTMuODMsMy44MywwLDEsMSwwLTcuNjVIODkuNzhhMy44MywzLjgzLDAsMCwxLDAsNy42NVoiLz48L3N2Zz4=" alt="" class="hr-icon-img">
+                    <p>Static Sites</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Static Sites</h2>
+                    <p><i class="bi bi-check"></i> Create React App</p>
+                    <p><i class="bi bi-check"></i> Gatsby</p>
+                    <p><i class="bi bi-check"></i> Hugo</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDExMS44OSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7Y2xpcC1wYXRoOnVybCgjYSk7fS5je2ZpbGw6IzA1MWQzMDt9LmR7ZmlsbDojNWFlZGM1O30uZXtmaWxsOiM1MzVmZWQ7fS5me2ZpbGw6I2U2ZTZlNjt9Lmd7ZmlsbDojNGZhY2ZjO308L3N0eWxlPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik0tMjE3Ni40OCw4LjExYy02LjEyLDAtMTEuNjgtNS0xMS42OC0xMS4xM3M1LTExLjEyLDExLjY4LTExLjEyLDExLjY4LDUsMTEuNjgsMTEuMTItNS41NiwxMS4xMy0xMS42OCwxMS4xM1ptMTQzLjUzLTYwLjY0Yy0xLjExLTguOS02LjY4LTE2LjEzLTEzLjkxLTIxLjY5bC0yLjc4LTIuMjMtMi4yMywyLjc4Yy00LjQ1LDUtNi4xMiwxMy45MS01LjU2LDIwLjU5YTMwLDMwLDAsMCwwLDUsMTMuOWMtMi4yMywxLjEyLTUsMi4yMy03LjIzLDMuMzRhNDYuODcsNDYuODcsMCwwLDEtMTUsMi4yM2gtMTQ0LjA5bC0uNTYsMy4zM2E2Mi42Miw2Mi42MiwwLDAsMCw1LDMxLjcxbDIuMjMsMy45di41NWMxMy4zNSwyMi4yNiwzNy4yNywzMi4yNyw2My40MiwzMi4yNyw1MC4wNiwwLDkxLjIzLTIxLjcsMTEwLjctNjguNDMsMTIuOC41NiwyNS41OS0yLjc4LDMxLjcxLTE1bDEuNjctMi43OC0yLjc4LTEuNjdjLTcuMjMtNC40NS0xNy4yNS01LTI1LjU5LTIuNzhabS03MS43Ny04LjloLTIxLjY5djIxLjdoMjEuNjlabTAtMjcuMjZoLTIxLjY5Vi02N2gyMS42OVptMC0yNy44MWgtMjEuNjl2MjEuNjloMjEuNjlaTS0yMDc4LTYxLjQzaC0yMS43djIxLjdoMjEuN1ptLTgwLjY3LDBoLTIxLjY5djIxLjdoMjEuNjl2LTIxLjdabTI3LjI2LDBoLTIxLjY5djIxLjdoMjEuNjlabS01NCwwaC0yMS43djIxLjdoMjEuN3YtMjEuN1ptNTQtMjcuMjZoLTIxLjY5Vi02N2gyMS42OVptLTI3LjI2LDBoLTIxLjY5Vi02N2gyMS42OXYtMjEuN1oiLz48L2NsaXBQYXRoPjwvZGVmcz48dGl0bGU+aWNvbi1iYWNrZ3JvdW5kLXdvcmtlcjwvdGl0bGU+PGcgY2xhc3M9ImIiPjxwYXRoIGNsYXNzPSJjIiBkPSJNLTI0OTYuMzYtMjQyLjIzSDQ1OTUuNDhWNjAwSC0yNDk2LjM2WiIvPjwvZz48cGF0aCBjbGFzcz0iZCIgZD0iTTE3OC4yNCw0MS45MWwtLjQ1LTUuNjJzOC40NC05LjU2LDguMTUtMTAuMTJsLTQuMy04LjI3Yy0uMjktLjU3LTEyLjgyLDEuMTctMTIuODIsMS4xN2wtNC4zNC0zLjYxcy0uNzgtMTIuNTQtMS4zOS0xMi43M2wtOS0yLjczYy0uNjItLjE4LTguNCw5Ljc3LTguNCw5Ljc3bC01LjY5LjU1cy05LjUzLTguMTctMTAuMS03Ljg4bC04LjQ0LDQuMzljLS41MS4yNi41NSw5LjM5Ljg2LDEyYTU1Ljg3LDU1Ljg3LDAsMCwxLDguODUsOCwyMi4wNywyMi4wNywwLDAsMSw0LjU4LTMuMjEsMjEuMjUsMjEuMjUsMCwwLDEsMjguNzIsOC43MywyMC44MSwyMC44MSwwLDAsMSwuMDcsMTguOTEsMzEuMjUsMzEuMjUsMCwwLDEsNi42Miw0LjQ2LDI4LjgxLDI4LjgxLDAsMCwxLDQuMiw0LjYzYzMuNzctLjMzLDkuNTgtLjkxLDkuNzItMS4zMUwxODgsNTBDMTg4LjIsNDkuNDIsMTc4LjI0LDQxLjkxLDE3OC4yNCw0MS45MVoiLz48cGF0aCBjbGFzcz0iZSIgZD0iTTQ0Ljk0LDYxLjM4SDM3LjI1YTI1LjI2LDI1LjI2LDAsMCwwLDAsNTAuNTFoNy42OWMxNy42MSwwLDI4LjI4LTkuMDYsMjguMzctMjUuMjZDNzMuMzEsNzAuNTgsNjIuNDUsNjEuMzgsNDQuOTQsNjEuMzhaIi8+PHBhdGggY2xhc3M9ImYiIGQ9Ik03MS4zMiw5Ny40MWEyOC42LDI4LjYsMCwwLDAsMi0xMC43OGMwLTcuODItMi42My0xNC4yNi03LjYyLTE4LjY0YTI0Ljg1LDI0Ljg1LDAsMCwwLTguOTMtNC45MkEzOC41OSwzOC41OSwwLDAsMCw0NSw2MS4zOEgzNy4yNWEyNS4xOSwyNS4xOSwwLDAsMC0xNy44NSw3LjQsMjUuMjcsMjUuMjcsMCwwLDAsOCw0MS4xMiwyNS4wOSwyNS4wOSwwLDAsMCw3LjQsMS44N2wxLjIxLjEyaDguOTFhMzkuMjIsMzkuMjIsMCwwLDAsMTEuODUtMS42NywyNC41OCwyNC41OCwwLDAsMCw4LjktNC44OUEyMS4xLDIxLjEsMCwwLDAsNzEuMzIsOTcuNDFaIi8+PHBhdGggY2xhc3M9ImciIGQ9Ik0xNjUuMzEsNjIuMjdjLTkuNTYtOC40Ny0yNS4xNy02LjY4LTI1LjMzLTYuNjZsLTMuODMuNDYtMS0zLjczYTQ3LjQ0LDQ3LjQ0LDAsMCwwLTMyLjgyLTMzLjYzQTQ2LjY4LDQ2LjY4LDAsMCwwLDg5LjUsMTYuOWMtMTIuNzcsMC0yNS4zNSw1LjI4LTM1Ljg1LDE1LjNhMzIsMzIsMCwwLDAtOCwxMi4zMiw2Miw2MiwwLDAsMC0yLjUxLDkuMzJINDVhNDYuMjcsNDYuMjcsMCwwLDEsMTQuMDYsMiwzMi40NCwzMi40NCwwLDAsMSwxMS42MSw2LjQ0YzYuNjYsNS44NSwxMC4xOSwxNC4yNiwxMC4xOSwyNC4zMWEzNi4zMiwzNi4zMiwwLDAsMS0yLjU3LDEzLjY2QTI4LjY2LDI4LjY2LDAsMCwxLDcwLjY3LDExMWMtLjE0LjEzLS4zMS4yNC0uNDYuMzdIMTQ1LjVjMTkuNjYsMCwyNy4yNi0xNS45LDI3LjI2LTI5LjU2QzE3Mi43Niw3My4yMiwxNzAuMjUsNjYuNjUsMTY1LjMxLDYyLjI3WiIvPjwvc3ZnPg==" alt="" class="hr-icon-img">
+                    <p>Background Workers</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Background Workers</h2>
+                    <p><i class="bi bi-check"></i> Celery</p>
+                    <p><i class="bi bi-check"></i> Sidekiq</p>
+                    <p><i class="bi bi-check"></i> RabbitMQ</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDE2NS43MyI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7Y2xpcC1wYXRoOnVybCgjYSk7fS5je2ZpbGw6IzA1MWQzMDt9LmR7ZmlsbDojZjg2NDhjO30uZXtmaWxsOiMzYjQ0NGU7fS5me2ZpbGw6I2ZmZGE1ZDt9Lmd7ZmlsbDojNWFlZGM1O30uaHtmaWxsOiM0ZjY1ZjE7fS5pe2ZpbGw6I2U2ZTZlNjt9PC9zdHlsZT48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGNsYXNzPSJhIiBkPSJNLTI0NDUsMzdjLTYuMTIsMC0xMS42OS01LTExLjY5LTExLjEzczUtMTEuMTIsMTEuNjktMTEuMTIsMTEuNjgsNSwxMS42OCwxMS4xMlMtMjQzOC45MSwzNy0yNDQ1LDM3Wm0xNDMuNTMtNjAuNjRjLTEuMTItOC45LTYuNjgtMTYuMTMtMTMuOTEtMjEuNjlsLTIuNzgtMi4yMy0yLjIzLDIuNzhjLTQuNDUsNS02LjEyLDEzLjkxLTUuNTYsMjAuNTlhMjkuODYsMjkuODYsMCwwLDAsNSwxMy45Yy0yLjIyLDEuMTItNSwyLjIzLTcuMjMsMy4zNGE0Ni43OSw0Ni43OSwwLDAsMS0xNSwyLjIzaC0xNDQuMDhsLS41NiwzLjM0YTYyLjYzLDYyLjYzLDAsMCwwLDUsMzEuNzFsMi4yMiwzLjg5di41NmMxMy4zNiwyMi4yNSwzNy4yOCwzMi4yNiw2My40MiwzMi4yNiw1MC4wNywwLDkxLjI0LTIxLjY5LDExMC43MS02OC40MiwxMi43OS41NSwyNS41OS0yLjc5LDMxLjcxLTE1bDEuNjctMi43OS0yLjc4LTEuNjdjLTcuMjQtNC40NS0xNy4yNS01LTI1LjU5LTIuNzhabS03MS43Ny04LjlILTIzOTV2MjEuN2gyMS42OVptMC0yNy4yNkgtMjM5NXYyMS43aDIxLjY5Wm0wLTI3LjgxSC0yMzk1djIxLjY5aDIxLjY5Wm0yNi43LDU1LjA3aC0yMS42OXYyMS43aDIxLjY5Wm0tODAuNjYsMGgtMjEuN3YyMS43aDIxLjd2LTIxLjdabTI3LjI2LDBoLTIxLjd2MjEuN2gyMS43Wm0tNTQsMGgtMjEuN3YyMS43aDIxLjd2LTIxLjdabTU0LTI3LjI2aC0yMS43djIxLjdoMjEuN1ptLTI3LjI2LDBoLTIxLjd2MjEuN2gyMS43di0yMS43WiIvPjwvY2xpcFBhdGg+PC9kZWZzPjx0aXRsZT5pY29uLWNyb24tam9iPC90aXRsZT48ZyBjbGFzcz0iYiI+PHBhdGggY2xhc3M9ImMiIGQ9Ik0tMjc2NC45MS0yMTMuMzFINDMyNi45M1Y2MjguOTRILTI3NjQuOTFaIi8+PC9nPjxwYXRoIGNsYXNzPSJkIiBkPSJNMTYxLjc1LDc1Ljc2QTY4LjI5LDY4LjI5LDAsMCwwLDEyNi41LDM1LjU0bDUuNjctMTUuMjEsMTcuMzYsNi40N2E1LDUsMCwwLDAsMS42OS4zLDQuODMsNC44MywwLDAsMCwxLjY5LTkuMzZMMTA2LjEuM2E0LjgzLDQuODMsMCwwLDAtMy4zOCw5LjA2bDE3LjM3LDYuNDdMMTE0LjQzLDMxYTY4LjExLDY4LjExLDAsMCwwLTM5LjE4LDEuMDYsNC44Myw0LjgzLDAsMCwwLDMsOS4xOEE1OC43OSw1OC43OSwwLDEsMSwzNy44MSw5NS43OGE0LjgzLDQuODMsMCwxLDAtOS42Ni0uMjMsNjguNTMsNjguNTMsMCwxLDAsMTMzLjYtMTkuNzlaIi8+PGNpcmNsZSBjbGFzcz0iZSIgY3g9Ijk2LjY3IiBjeT0iOTcuMTciIHI9IjkuNDciLz48cGF0aCBjbGFzcz0iZiIgZD0iTTk3LjUyLDEwNi43NmwuMzUsMCwuODEtLjE0LjIsMGE4LjI1LDguMjUsMCwwLDAsMS0uMjhsLjI4LS4xMWE1LjU4LDUuNTgsMCwwLDAsLjY3LS4yOGwuMzQtLjE3Yy4xOS0uMS4zOC0uMi41Ny0uMzJsLjM0LS4yMmE2LjQyLDYuNDIsMCwwLDAsLjUzLS4zOGwuMzItLjI0LjUzLS40OS4yNC0uMjRhOS4yOCw5LjI4LDAsMCwwLC43MS0uODIsOS44Miw5LjgyLDAsMCwwLDEuNC0yLjU1Yy4xMS0uMy4yLS42LjI4LS45YTkuNzEsOS43MSwwLDAsMC0yLTguNjdsLS4wOS0uMTFhMTAuMjYsMTAuMjYsMCwwLDAtMS4wNi0xYy0uMTItLjEtLjIyLS4yLS4zNS0uMjlDOTkuNzIsODcuMyw3Mi4xOCw3Mi4zNSw3Mi4xOCw3Mi4zNWE0LjQ5LDQuNDksMCwwLDAtLjc4LS40NywxLjM2LDEuMzYsMCwwLDAtLjI1LS4xMSwzLjI4LDMuMjgsMCwwLDAtLjU3LS4yMWwtLjMxLS4wOGE1LjYyLDUuNjIsMCwwLDAtLjU3LS4wOWwtLjMsMC0uNDEsMGE0LjQ4LDQuNDgsMCwwLDAtLjY0LjA3bC0uMzkuMDlhNS4yOSw1LjI5LDAsMCwwLS42LjIxbC0uMzYuMTZhNC41Niw0LjU2LDAsMCwwLS41OS4zOCwyLjQzLDIuNDMsMCwwLDAtLjI4LjIsNC40NSw0LjQ1LDAsMCwwLS43NC43NmgwYTQuODQsNC44NCwwLDAsMCwuOTIsNi43OVM4OCwxMDIuNjcsOTAuODQsMTA0LjgyaDBhOS45Myw5LjkzLDAsMCwwLDEuMjEuNzhsLjI1LjEzYTEwLDEwLDAsMCwwLDEuMjYuNTRsLjI0LjA3YTEyLjE0LDEyLjE0LDAsMCwwLDEuMjkuMzJoLjA4YTEwLjI1LDEwLjI1LDAsMCwwLDEuMzYuMTFoLjMyUTk3LjE5LDEwNi43OSw5Ny41MiwxMDYuNzZaIi8+PHBhdGggY2xhc3M9ImciIGQ9Ik0xNzEuMjgsNjMuMDZhNi40NSw2LjQ1LDAsMCwwLTguNTQtMy4xOUwxNTYsNjIuOTRhNjkuMDcsNjkuMDcsMCwwLDEsNS4zNCwxMS43NGw2LjczLTMuMDhBNi40Myw2LjQzLDAsMCwwLDE3MS4yOCw2My4wNloiLz48cGF0aCBjbGFzcz0iaCIgZD0iTTkzLjU3LDEwNi4yOGwuMjQuMDdaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik0xMDQuMDUsOTAuODhsLS4wOS0uMTFaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik0xMDMuNjcsMTAzLjgybC0uMjQuMjRaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik05Ni44NiwxMDYuNzloMFoiLz48cGF0aCBjbGFzcz0iaCIgZD0iTTEwNi4zNSw5Ni43N2E5LjY3LDkuNjcsMCwwLDEtLjI5LDIuNzhBOS42Nyw5LjY3LDAsMCwwLDEwNi4zNSw5Ni43N1oiLz48cGF0aCBjbGFzcz0iaCIgZD0iTTkwLjg1LDEwNC44M2gwYy0uNTctLjQzLTEuOTItMS43MS0zLjctMy40NmgwYzEuNzgsMS43NSwzLjEzLDMsMy43LDMuNDZaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik05NS4xLDEwNi42N2gwWiIvPjxwYXRoIGNsYXNzPSJoIiBkPSJNOTIuMDYsMTA1LjYxbC4yNS4xM1oiLz48cGF0aCBjbGFzcz0iaCIgZD0iTTk5Ljg1LDEwNi4yN2wuMjgtLjExWiIvPjxwYXRoIGNsYXNzPSJoIiBkPSJNMTAyLjU1LDg5LjQ2Yy4xMy4wOS4yMy4xOS4zNS4yOS0uMTItLjEtLjIyLS4yLS4zNS0uMjktLjM4LS4zLTEuMjMtLjgzLTIuNC0xLjUzaDBDMTAxLjMyLDg4LjYzLDEwMi4xNyw4OS4xNiwxMDIuNTUsODkuNDZaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik05OC42OCwxMDYuNTlsLjIsMFoiLz48cGF0aCBjbGFzcz0iaCIgZD0iTTEyNy42Nyw2NS40NmE0NC40Miw0NC40MiwwLDAsMC0xNS4zNS05Ljc5bC04LjcxLDIzLjA5YzIuMzIsMS4zNyw0LDIuNDMsNC44MSwzQTE5LjMzLDE5LjMzLDAsMSwxLDg1LDExMi41MWMtMS4xMy0uODYtMy45LTMuNTMtNy4zNC03TDU2LjA1LDExNWE0NC40NCw0NC40NCwwLDAsMCw0MC41OSwyNi40OWgxYTQ0LjM1LDQ0LjM1LDAsMCwwLDMwLjA1LTc2WiIvPjxwYXRoIGNsYXNzPSJoIiBkPSJNOTcuNTIsMTA2Ljc2bC4zNSwwWiIvPjxwYXRoIGNsYXNzPSJoIiBkPSJNMTAyLjU4LDEwNC43OWwuMzItLjI0WiIvPjxwYXRoIGNsYXNzPSJoIiBkPSJNMTAwLjgsMTA1Ljg4bC4zNC0uMTdaIi8+PHBhdGggY2xhc3M9ImgiIGQ9Ik0xMDEuNzEsMTA1LjM5bC4zNC0uMjJaIi8+PGNpcmNsZSBjbGFzcz0iaSIgY3g9IjM3LjEyIiBjeT0iNzQuMzciIHI9IjQuNzUiLz48Y2lyY2xlIGNsYXNzPSJpIiBjeD0iNDUuNjQiIGN5PSI1OC40MSIgcj0iNC43NSIvPjxjaXJjbGUgY2xhc3M9ImkiIGN4PSI1Ny43NyIgY3k9IjQ1Ljk2IiByPSI0Ljc1Ii8+PC9zdmc+" alt="" class="hr-icon-img">
+                    <p>Cron Jobs</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Cron Jobs</h2>
+                    <p>Run any command on a fixed schedule reliably and easily.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDE3Ny42MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7Y2xpcC1wYXRoOnVybCgjYSk7fS5je2ZpbGw6IzA1MWQzMDt9LmR7ZmlsbDojNGZhY2ZjO30uZXtmaWxsOiNmODY0OGM7fS5me2ZpbGw6IzU1NTlmNzt9Lmd7ZmlsbDojZmZkYTVkO30uaHtmaWxsOiM1YWVkYzU7fTwvc3R5bGU+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBjbGFzcz0iYSIgZD0iTS0xOTExLDQxYy02LjEyLDAtMTEuNjktNS0xMS42OS0xMS4xMnM1LTExLjEzLDExLjY5LTExLjEzLDExLjY4LDUsMTEuNjgsMTEuMTNTLTE5MDQuODksNDEtMTkxMSw0MVptMTQzLjUyLTYwLjY0Yy0xLjExLTguOS02LjY3LTE2LjEzLTEzLjktMjEuNjlsLTIuNzgtMi4yMy0yLjIzLDIuNzhjLTQuNDUsNS02LjEyLDEzLjkxLTUuNTYsMjAuNTlhMjkuOTQsMjkuOTQsMCwwLDAsNSwxMy45MWMtMi4yMiwxLjExLTUsMi4yMi03LjIzLDMuMzNhNDYuODMsNDYuODMsMCwwLDEtMTUsMi4yM2gtMTQ0LjA4bC0uNTYsMy4zNGE2Mi42Myw2Mi42MywwLDAsMCw1LDMxLjcxbDIuMjIsMy44OXYuNTZDLTE5MzMuMjcsNjEtMTkwOS4zNCw3MS0xODgzLjIsNzFjNTAuMDcsMCw5MS4yNC0yMS42OSwxMTAuNzEtNjguNDIsMTIuNzkuNTUsMjUuNTktMi43OCwzMS43MS0xNWwxLjY3LTIuNzktMi43OS0xLjY2Yy03LjIzLTQuNDUtMTcuMjQtNS0yNS41OS0yLjc5Wm0tNzEuNzYtOC45aC0yMS43djIxLjdoMjEuN1ptMC0yNy4yNmgtMjEuN3YyMS43aDIxLjdabTAtMjcuODFoLTIxLjd2MjEuNjloMjEuN1ptMjYuNyw1NS4wN2gtMjEuNjl2MjEuN2gyMS42OVptLTgwLjY2LDBoLTIxLjd2MjEuN2gyMS43di0yMS43Wm0yNy4yNiwwaC0yMS43djIxLjdoMjEuN1ptLTU0LDBoLTIxLjd2MjEuN2gyMS43di0yMS43Wm01NC0yNy4yNmgtMjEuN3YyMS43aDIxLjdabS0yNy4yNiwwaC0yMS43djIxLjdoMjEuN3YtMjEuN1oiLz48L2NsaXBQYXRoPjwvZGVmcz48dGl0bGU+aWNvbi1kb2NrZXI8L3RpdGxlPjxnIGNsYXNzPSJiIj48cGF0aCBjbGFzcz0iYyIgZD0iTS0yMjMwLjg5LTIwOS4zN0g0ODYwLjk0VjYzMi44OUgtMjIzMC44OVoiLz48L2c+PHBhdGggY2xhc3M9ImQiIGQ9Ik0xODAuOTQsOTkuMjNIMTc1LjRsLS4wNS01LjdhMTUuNTcsMTUuNTcsMCwwLDAtMTUuNTYtMTUuMzVWOTYuNjlhOSw5LDAsMCwxLTksOUgxNDAuMmMtMTUsMC0xMjUuMiwwLTEyNS4yLDB2MTQuNDhhNTcuNDUsNTcuNDUsMCwwLDAsNTcuNDUsNTcuNDVoMjFjMjQuNDEsMCw0NC40My0xMy4yNiw1NC44NS0zMy41OSwxLjQtMi43NCw0LTcuNzMsNS4xLTEwLjUsOC4xOC0xOS45MSwxMS4xOC0xOS42NywyNi42LTE5LjY3aC01bDIwLC4wOEMxOTUsMTA1LjMxLDE4OS41Niw5OS4yMywxODAuOTQsOTkuMjNaTTY5LjgyLDE0NC42MUE0Ljg0LDQuODQsMCwwLDEsNjUsMTQwYTQuODcsNC44NywwLDAsMSw5LjcyLDBBNC44NCw0Ljg0LDAsMCwxLDY5LjgyLDE0NC42MVoiLz48cmVjdCBjbGFzcz0iZSIgeD0iNTMuMjQiIHk9IjcwLjc4IiB3aWR0aD0iMjYuNzQiIGhlaWdodD0iMjYuNzQiIHJ4PSIyLjg5Ii8+PHJlY3QgY2xhc3M9ImYiIHg9Ijg4LjYzIiB5PSI3MC43OCIgd2lkdGg9IjI2Ljc0IiBoZWlnaHQ9IjI2Ljc0IiByeD0iMi44OSIvPjxyZWN0IGNsYXNzPSJlIiB4PSIxNy44NSIgeT0iNzAuNzgiIHdpZHRoPSIyNi43NCIgaGVpZ2h0PSIyNi43NCIgcng9IjIuODkiLz48cmVjdCBjbGFzcz0iZyIgeD0iNTMuMjQiIHk9IjM1LjM5IiB3aWR0aD0iMjYuNzQiIGhlaWdodD0iMjYuNzQiIHJ4PSIyLjg5Ii8+PHJlY3QgY2xhc3M9ImYiIHg9IjEyNC4wMiIgeT0iNzAuNzgiIHdpZHRoPSIyNi43NCIgaGVpZ2h0PSIyNi43NCIgcng9IjIuODkiLz48cmVjdCBjbGFzcz0iaCIgeD0iODguNjMiIHk9IjM1LjM5IiB3aWR0aD0iMjYuNzQiIGhlaWdodD0iMjYuNzQiIHJ4PSIyLjg5Ii8+PHJlY3QgY2xhc3M9ImgiIHg9Ijg4LjYzIiB3aWR0aD0iMjYuNzQiIGhlaWdodD0iMjYuNzQiIHJ4PSIyLjg5Ii8+PC9zdmc+" alt="" class="hr-icon-img">
+                    <p>Dockerfiles</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Dockerfiles</h2>
+                    <p>Host virtually anything with custom Dockerfiles.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDE3MCI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7Y2xpcC1wYXRoOnVybCgjYSk7fS5je2ZpbGw6IzA1MWQzMDt9LmR7ZmlsbDojZTZlNmU2O30uZXtmaWxsOiNmODY0OGM7fS5me2ZpbGw6IzVhZWRjNTt9PC9zdHlsZT48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGNsYXNzPSJhIiBkPSJNLTE5MTEtMjE5Yy02LjEyLDAtMTEuNjktNS0xMS42OS0xMS4xM3M1LTExLjEyLDExLjY5LTExLjEyLDExLjY4LDUsMTEuNjgsMTEuMTJTLTE5MDQuODktMjE5LTE5MTEtMjE5Wm0xNDMuNTItNjAuNjRjLTEuMTEtOC45LTYuNjctMTYuMTMtMTMuOS0yMS42OWwtMi43OC0yLjIzLTIuMjMsMi43OGMtNC40NSw1LTYuMTIsMTMuOTEtNS41NiwyMC41OWEyOS44NiwyOS44NiwwLDAsMCw1LDEzLjljLTIuMjIsMS4xMi01LDIuMjMtNy4yMywzLjM0YTQ2LjgzLDQ2LjgzLDAsMCwxLTE1LDIuMjNoLTE0NC4wOGwtLjU2LDMuMzRhNjIuNTgsNjIuNTgsMCwwLDAsNSwzMS43bDIuMjIsMy45di41NkMtMTkzMy4yNy0xOTktMTkwOS4zNC0xODktMTg4My4yLTE4OWM1MC4wNywwLDkxLjI0LTIxLjY5LDExMC43MS02OC40MiwxMi43OS41NSwyNS41OS0yLjc5LDMxLjcxLTE1bDEuNjctMi43OC0yLjc5LTEuNjdjLTcuMjMtNC40NS0xNy4yNC01LTI1LjU5LTIuNzhabS03MS43Ni04LjloLTIxLjd2MjEuN2gyMS43Wm0wLTI3LjI2aC0yMS43djIxLjdoMjEuN1ptMC0yNy44MWgtMjEuN1YtMzIyaDIxLjdabTI2LjcsNTUuMDdoLTIxLjY5djIxLjdoMjEuNjlabS04MC42NiwwaC0yMS43djIxLjdoMjEuN3YtMjEuN1ptMjcuMjYsMGgtMjEuN3YyMS43aDIxLjdabS01NCwwaC0yMS43djIxLjdoMjEuN3YtMjEuN1ptNTQtMjcuMjZoLTIxLjd2MjEuN2gyMS43Wm0tMjcuMjYsMGgtMjEuN3YyMS43aDIxLjd2LTIxLjdaIi8+PC9jbGlwUGF0aD48L2RlZnM+PHRpdGxlPmljb24tcHJpdmF0ZS1zZXJ2aWNlczwvdGl0bGU+PGcgY2xhc3M9ImIiPjxwYXRoIGNsYXNzPSJjIiBkPSJNLTIyMzAuODktNDY5LjM4SDQ4NjAuOTRWMzcyLjg3SC0yMjMwLjg5WiIvPjwvZz48cGF0aCBjbGFzcz0iZCIgZD0iTTE0Mi43LDMxLjY1aC02LjNBMzguNzYsMzguNzYsMCwwLDAsOTguMzEsMGgwQTM4Ljc2LDM4Ljc2LDAsMCwwLDU5LjU1LDM4Ljc2aDBjMCwuMjMsMCwuNDYsMCwuN0g1My40QTE5LjI4LDE5LjI4LDAsMCwwLDM0LjEyLDU4Ljc0aDBBMTkuMjgsMTkuMjgsMCwwLDAsNTMuNCw3OGg4OS4zYTIzLjE4LDIzLjE4LDAsMCwwLDIzLjE4LTIzLjE4aDBBMjMuMTgsMjMuMTgsMCwwLDAsMTQyLjcsMzEuNjVaIi8+PHBhdGggY2xhc3M9ImUiIGQ9Ik03My4xMSwxMDIuODdhNi43OCw2Ljc4LDAsMCwxLTYuNzgtNi43OFY2OS43MkExOS42NCwxOS42NCwwLDAsMSw4Niw1MC4xMWg5Ljc3YTYuNzcsNi43NywwLDEsMSwwLDEzLjU0SDg2YTYuMDgsNi4wOCwwLDAsMC02LjA3LDYuMDdWOTYuMUE2Ljc3LDYuNzcsMCwwLDEsNzMuMTEsMTAyLjg3WiIvPjxyZWN0IGNsYXNzPSJlIiB4PSIxMTMuNzYiIHk9IjgxLjMxIiB3aWR0aD0iMTMuNTUiIGhlaWdodD0iMTQuNzkiLz48cGF0aCBjbGFzcz0iZiIgZD0iTTEyOC4yMyw5Ni4xaC02MmExMi41NiwxMi41NiwwLDAsMC0xMi41NiwxMi41NnYxNy43NUE0My41OSw0My41OSwwLDAsMCw5Ny4yLDE3MGgwYTQzLjU4LDQzLjU4LDAsMCwwLDQzLjU4LTQzLjU5aDBWMTA4LjY2QTEyLjU1LDEyLjU1LDAsMCwwLDEyOC4yMyw5Ni4xWm0tMjAuNzIsNTAuMmE0LjM1LDQuMzUsMCwwLDEtNC4yMSw1LjU0SDkxLjExYTQuMzcsNC4zNywwLDAsMS00LjM3LTQuMzYsNC4yNiw0LjI2LDAsMCwxLC4xNy0xLjE4bDQuMjYtMTUuMThhMTAuNDcsMTAuNDcsMCwxLDEsMTIuMDgsMFoiLz48L3N2Zz4=" alt="" class="hr-icon-img">
+                    <p>Private Services</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Private Services</h2>
+                    <p>Run internal services on a private network with ease.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjAwIDE3MC4yOCI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6bm9uZTt9LmJ7ZmlsbDojNGY2NWYxO30uY3tmaWxsOiM1YWVkYzU7fS5ke2NsaXAtcGF0aDp1cmwoI2EpO30uZXtmaWxsOiMwNTFkMzA7fTwvc3R5bGU+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBjbGFzcz0iYSIgZD0iTS0xNjU3Ljg5LDM3LjMxYy02LjEyLDAtMTEuNjktNS0xMS42OS0xMS4xM3M1LTExLjEzLDExLjY5LTExLjEzLDExLjY4LDUsMTEuNjgsMTEuMTMtNS41NywxMS4xMy0xMS42OCwxMS4xM1ptMTQzLjUyLTYwLjY0Yy0xLjExLTguOS02LjY3LTE2LjEzLTEzLjktMjEuN2wtMi43OS0yLjIyLTIuMjIsMi43OGMtNC40NSw1LTYuMTIsMTMuOTEtNS41NiwyMC41OGEyOS44NiwyOS44NiwwLDAsMCw1LDEzLjkxYy0yLjIyLDEuMTEtNSwyLjIzLTcuMjMsMy4zNGE0Ni44Miw0Ni44MiwwLDAsMS0xNSwyLjIyaC0xNDQuMDhsLS41NiwzLjM0YTYyLjYyLDYyLjYyLDAsMCwwLDUsMzEuNzFsMi4yMiwzLjg5di41NmMxMy4zNSwyMi4yNSwzNy4yNywzMi4yNyw2My40MiwzMi4yNyw1MC4wNywwLDkxLjI0LTIxLjcsMTEwLjcxLTY4LjQzLDEyLjc5LjU2LDI1LjU5LTIuNzgsMzEuNzEtMTVsMS42Ny0yLjc4LTIuNzktMS42N2MtNy4yMy00LjQ1LTE3LjI0LTUtMjUuNTktMi43OFptLTcxLjc2LTguOWgtMjEuN3YyMS42OWgyMS43Wm0wLTI3LjI2aC0yMS43Vi0zNy44aDIxLjdabTAtMjcuODJoLTIxLjd2MjEuN2gyMS43Wm0yNi43LDU1LjA4aC0yMS42OXYyMS42OWgyMS42OVptLTgwLjY2LDBoLTIxLjd2MjEuNjloMjEuN1YtMzIuMjNabTI3LjI2LDBoLTIxLjd2MjEuNjloMjEuN1ptLTU0LDBoLTIxLjY5djIxLjY5aDIxLjY5Vi0zMi4yM1ptNTQtMjcuMjZoLTIxLjdWLTM3LjhoMjEuN1ptLTI3LjI2LDBoLTIxLjdWLTM3LjhoMjEuN1YtNTkuNDlaIi8+PC9jbGlwUGF0aD48L2RlZnM+PHRpdGxlPmljb24tcG9zdGdyZXNxbDwvdGl0bGU+PHBhdGggY2xhc3M9ImIiIGQ9Ik00OS44OCwxNTYuNzFhNi45NCw2Ljk0LDAsMCwxLDYuOTQtN0g3OC42NWE2Ljk0LDYuOTQsMCwwLDEsNi45NCw3djQuNTdoMjQuMjdhMjkuMTksMjkuMTksMCwwLDEtMi4yMy0xMS4yMVYxMjIuMzJhMjkuODYsMjkuODYsMCwwLDEtOC40MS02LjI3Yy05Ljg3LDkuNy0xNy44MywxNC0yNS42NywxNC0uMzksMC0uNzksMC0xLjE4LDAtMTIuMDUtLjctMjMuMS0xMC4zOS0zMS43OS0yNy42YTY4LjUxLDY4LjUxLDAsMCwwLTIwLjE0LDQ4LjQyLDY5LjQyLDY5LjQyLDAsMCwwLC43OSwxMC40SDQ5Ljg4WiIvPjxwYXRoIGNsYXNzPSJjIiBkPSJNMTM4LjY1LDEzOS4zNWw2LjIzLTUuMTNhMTYuNDYsMTYuNDYsMCwwLDAsNi43OC01Ljg0bDIxLjA3LTMxLjc5YTQxLDQxLDAsMCwwLDMuNjctMzguNDFMMTY2LjYyLDM0LjdjLTQtOS42Mi04LjI3LTE2LTIzLTE4LjI4bC0yOS42Mi01LjM1LTItMWMtMS40My0uNzQtMzUuMzMtMTgtNTkuNDMtNS41OUMzNi45LDEyLjU4LDMxLjQ2LDM2LjIxLDM4LjExLDY3LjY5YzUuMywyNSwxOC40NCw1Mi40MywzNC43OSw1My4zOC4yMSwwLC40MywwLC42NCwwLDUuNSwwLDEyLjA2LTQsMjAuNTctMTIuNjUsMi42LTIuNjMsNC45NC01LjI1LDYuNzUtNy4zNy4xLjM3LjIuNzQuMzMsMS4xYTIwLjkxLDIwLjkxLDAsMCwwLDE0LjQ0LDEzLjZsMSwuMjd2MzRhMjAuMjQsMjAuMjQsMCwwLDAsMjAuMjIsMjAuMjFoMTUuNDdBMTQuNSwxNC41LDAsMCwwLDE2Ni44LDE1NS44VjE1MmExMi4zMSwxMi4zMSwwLDAsMC0xMi4yOS0xMi4yOWgtNi43NXYxMWg2Ljc1QTEuMjksMS4yOSwwLDAsMSwxNTUuOCwxNTJ2My44MmEzLjQ4LDMuNDgsMCwwLDEtMy40OCwzLjQ4SDE0Ni45bC4wOSwwLTUuNzEtLjExYTQuNjEsNC42MSwwLDAsMS00LjUyLTQuOTVDMTM3LjA3LDE1MC4xNSwxMzcuNjUsMTM5LjgxLDEzOC42NSwxMzkuMzVaTTEyOC4wOCw3My4wN2E1LjUsNS41LDAsMSwxLDUuNS01LjVBNS41LDUuNSwwLDAsMSwxMjguMDgsNzMuMDdaIi8+PGcgY2xhc3M9ImQiPjxwYXRoIGNsYXNzPSJlIiBkPSJNLTE5NzcuNzctMjEzSDUxMTQuMDZWNjI5LjIySC0xOTc3Ljc3WiIvPjwvZz48L3N2Zz4=" alt="" class="hr-icon-img">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">PostgreSQL</h2>
+                    <p>Fully managed databases with automated backups.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgsec">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA1IiBoZWlnaHQ9IjEwOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTEuODk4IDUzLjU1YzAgNC44MzgtMTQuOTg3IDExLjQtMzkuMzk4IDExLjQtMjQuNDEgMC0zOS4zOTgtNi42NDMtMzkuMzk4LTExLjRWMjkuMDc3YzcuNjgyIDUuNTc5IDIzLjg4NSA4LjUzIDM5LjM5OCA4LjUzIDE1LjUxMyAwIDMxLjcxNi0yLjk1MSAzOS4zOTgtOC41M3YyNC40NzVaIiBmaWxsPSIjMDBGMkMzIi8+PHBhdGggb3BhY2l0eT0iLjciIGQ9Ik01Mi41IDEwLjMwOWMyNC40MSAwIDM5LjM5OCA2LjY0MiAzOS4zOTggMTEuMzk5IDAgNC43NTYtMTQuOTg3IDExLjM5OC0zOS4zOTggMTEuMzk4LTI0LjQxIDAtMzkuMzk4LTYuNjQyLTM5LjM5OC0xMS4zOTkgMC00Ljc1NiAxNC45ODctMTEuMzk4IDM5LjM5OC0xMS4zOThaTTUyLjUgOTYuNzljLTI0LjQxIDAtMzkuMzk4LTYuNjQyLTM5LjM5OC0xMS4zOThWNjAuODA1QzE5LjU3IDY1LjY0IDMyLjggNjkuMzgyIDUyLjUgNjkuMzgyYzE5LjcgMCAzMi45My0zLjcwOCAzOS4zOTgtOC41Nzd2MjQuNTg3YzAgNC43NTYtMTQuOTg3IDExLjM5OS0zOS4zOTggMTEuMzk5WiIgZmlsbD0iIzAwRjJDMyIvPjxwYXRoIGQ9Im03OC4wNTYgNDYuMDU4LTEuMTktMy40MjhjLS4zNTMtMS4wMTgtMS43OTQtMS4wMTgtMi4xNDcgMGwtMS4xOSAzLjQyOGgtMy44NzJjLTEuMTE5IDAtMS41NjQgMS40NDctLjYzOSAyLjA3N2wzLjA2NiAyLjA4NC0xLjE2NiAzLjM1OGMtLjM2IDEuMDM0LjgwNyAxLjkyOCAxLjcxMiAxLjMxM2wzLjE2Mi0yLjE1IDMuMTYyIDIuMTVjLjkwNi42MTUgMi4wNzItLjI3OSAxLjcxMy0xLjMxM2wtMS4xNjYtMy4zNTggMy4wNjYtMi4wODRjLjkyNS0uNjMuNDgtMi4wNzctLjY0LTIuMDc3aC0zLjg3WiIgZmlsbD0iI0ZGNUM4OCIgc3Ryb2tlPSIjMUUyMjREIiBzdHJva2Utd2lkdGg9IjIuMDIxIi8+PHBhdGggZD0ibTU5LjE2MiA1NC4zODUtNS42MjMtOS43MTdhMS4xOTEgMS4xOTEgMCAwIDAtMi4wNjIgMGwtNS42MjMgOS43MTdhMS4xOTEgMS4xOTEgMCAwIDAgMS4wMyAxLjc4N2gxMS4yNDdjLjkxOCAwIDEuNDktLjk5MyAxLjAzMS0xLjc4N1oiIGZpbGw9IiNGRkRBNUQiIHN0cm9rZT0iIzFFMjI0RCIgc3Ryb2tlLXdpZHRoPSIyLjExOCIvPjxwYXRoIGQ9Ik0yOC4zNzMgNTUuNzQ1YzMuNzAzIDAgNi43MDktMi45OTUgNi43MDktNi42OTYgMC0zLjctMy4wMDYtNi42OTYtNi43MS02LjY5Ni0zLjcwMiAwLTYuNzA4IDIuOTk2LTYuNzA4IDYuNjk2IDAgMy43IDMuMDA2IDYuNjk2IDYuNzA5IDYuNjk2WiIgZmlsbD0iIzRGNjVGMSIgc3Ryb2tlPSIjMUUyMjREIiBzdHJva2Utd2lkdGg9IjIuMTE4Ii8+PC9zdmc+Cg==" alt="" class="hr-icon-img">
+                    <p>Redis®</p>
+                </div>
+                <div class="card_pa">
+                    <h2 class="card_head">Redis®</h2>
+                    <p>Fully managed in-memory storage with live metrics.</p>
+                </div>
+            </div>
+            <div class="custom-shape-divider-bottom-1671087439">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <a href="">See Docs</a>
+        <div class="apps">
+            <img src="images/js.svg" alt="pic">
+            <img src="images/py.svg" alt="pic">
+            <img src="images/dock.svg" alt="pic">
+            <img src="images/diamond.svg" alt="pic">
+            <img src="images/drop.svg" alt="pic">
+            <img src="images/beaver.svg" alt="pic">
+            <img src="images/r star.svg" alt="pic">
         </div>
     </div>
+    <div class="pricing">
+        <div class="custom-shape-divider-top-1671087746">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="first-sec">
+            <p>PRICING</p>
+            <h2>Simple and predictable pricing</h2>
+            <h3>Compare to Heroku</h3>
+        </div>
+        <img src="images/curve.svg" class='curve'alt="pic">
+        <div class="second-sec">
+            <h2>Moving from Heroku to Render reduced my hosting bill by 80%, and my sites and databases are even faster.</h2>
+            <div class="sean">
+                <p>Sean McCann</p>
+                <h3>Engineer at Checkr</h3>
+            </div>
+            <img src="images/sean.jpg" class='seanpic'alt="pic">
+        </div>
+        <div class="custom-shape-divider-bottom-1671088399">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="buzz">
+        <div class="custom-shape-divider-top-1671088755">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="first-sec">
+            <p>BUZZ</p>
+            <h2>What's New on Twitter</h2>
+            <h3>See more</h3>
+        </div>
+        <div class="buzz-reviews">
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>I moved from Heroku long ago before the cancellation of Heroku's free tier and I can attest <a href="">@render</a> is an amazing choice</h2>
+                <div class="reviewer">
+                    <h3>D</h3>
+                    <h4>@Dominus_Kelvin</h4>
+                </div>
+            </div>
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>Render is amazing, it's like having a DevOps team in your backpocket. It is definitely an upgrade from Heroku.</h2>
+                <div class="reviewer">
+                    <img src="images/zach.jpg" style='border-radius:50%;width: 50px;'alt="">
+                    <h4>@zacharie</h4>
+                </div>
+            </div>
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>I love how simple <a href="">@render</a> makes deploying apps. My account is slowly growing</h2>
+                <div class="reviewer">
+                    <h3>A</h3>
+                    <h4>@Aisha</h4>
+                </div>
+            </div>
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>I have had nothing but a wonderful experience using <a href="">@render</a></h2>
+                <div class="reviewer">
+                    <h3>M</h3>
+                    <h4>@Maisha</h4>
+                </div>
+            </div>
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>I love <a href="">render</a> it is very user friendly.</h2>
+                <div class="reviewer">
+                    <h3>H</h3>
+                    <h4>@Hitler</h4>
+                </div>
+            </div>
+            <div class="review-card">
+                <p class="top-right"></p>
+                <p class="top2-right"></p>
+                <p class="bottom-left"></p>
+                <p class="bottom2-left"></p>
+                <h2>I don't want to think about infrastructure. That is why i chose <a href="">@render</a></h2>
+                <div class="reviewer">
+                    <img src="images/twobrainy.jpg" style='border-radius:50%;width: 50px;'alt="">
+                    <h4>@two_brainy</h4>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1671123397">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <div class="customers">
+        <div class="custom-shape-divider-top-1671123290">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <p>CUSTOMERS</p>
+        <h2>What some awesome people say</h2>
+        <div class="maint">
+            <div class="learn-more">
+                <p>Maintenance-free Hosting for the Indie Hacker Community</p>
+                <div class="play">
+                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMCAzMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAgMzA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTUsMjdWM2MwLTEuNCwxLjEtMi42LDIuNi0yLjZjMC42LDAsMS4xLDAuMiwxLjYsMC41bDE2LjcsMTEuOGMxLjIsMS4xLDEuNCwyLjksMC4zLDQuMgoJYy0wLjEsMC4xLTAuMiwwLjItMC4zLDAuM0w5LjIsMjkuMWMtMS4xLDAuOS0yLjgsMC43LTMuNi0wLjVDNS4yLDI4LjEsNSwyNy42LDUsMjd6Ii8+Cjwvc3ZnPgo=" alt="learn more">
+                    <p>Learn More</p>
+                </div>
+            </div>
+            <img src="images/indie hackers.jpg" class='indie'alt="pic">
+        </div>
+    </div>
+    <div class="b-customers">
+        <div class="custom-shape-divider-top-1671123555">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="maint" id="main">
+            <div class="learn-more">
+                <p>Security, Reliability and Scale for a Presidential Campaign</p>
+                <div class="play">
+                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMCAzMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAgMzA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTUsMjdWM2MwLTEuNCwxLjEtMi42LDIuNi0yLjZjMC42LDAsMS4xLDAuMiwxLjYsMC41bDE2LjcsMTEuOGMxLjIsMS4xLDEuNCwyLjksMC4zLDQuMgoJYy0wLjEsMC4xLTAuMiwwLjItMC4zLDAuM0w5LjIsMjkuMWMtMS4xLDAuOS0yLjgsMC43LTMuNi0wLjVDNS4yLDI4LjEsNSwyNy42LDUsMjd6Ii8+Cjwvc3ZnPgo=" alt="learn more">
+                    <p>Learn More</p>
+                </div>
+            </div>
+            <img src="images/shrye.PNG" class='indie'alt="pic">
+        </div>
+        <div class="maint">
+            <div class="learn-more">
+                <p>Speed and Functionality for a Fast-Growing YC Startup</p>
+                <div class="play">
+                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMCAzMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAgMzA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTUsMjdWM2MwLTEuNCwxLjEtMi42LDIuNi0yLjZjMC42LDAsMS4xLDAuMiwxLjYsMC41bDE2LjcsMTEuOGMxLjIsMS4xLDEuNCwyLjksMC4zLDQuMgoJYy0wLjEsMC4xLTAuMiwwLjItMC4zLDAuM0w5LjIsMjkuMWMtMS4xLDAuOS0yLjgsMC43LTMuNi0wLjVDNS4yLDI4LjEsNSwyNy42LDUsMjd6Ii8+Cjwvc3ZnPgo=" alt="learn more">
+                    <p>Learn More</p>
+                </div>
+            </div>
+            <img src="images/zelos.PNG" class='indie'alt="pic">
+        </div>
+        <div class="more-cont">
+            <div class="more">
+                <h2>Build on Render</h2>
+                <p>The Zero DevOps for developers and teams</p>
+                <a href="">GET STARTED FOR FREE</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footercont">
+            <div class="topcont">
+                <h2>Subscribe to our newsletter for monthly product updates.</h2>
+                <div class="email">
+                    <input type="text" placeholder="Email address">
+                    <a href="">Subscribe</a>
+                </div>
+            </div>
+            <div class="documentation">
+                <div class="doc1">
+                    <h2>MAIN</h2>
+                    <p>About</p>
+                    <p>Pricing</p>
+                    <p>Docs</p>
+                    <p>Careers</p>
+                    <p>Blog</p>
+                    <p>Press</p>
+                </div>
+                <div class="doc1">
+                    <h2>DOCUMENTATION</h2>
+                    <p>Render API</p>
+                    <p>Publish a Static Site</p>
+                    <p>Create a PostgreSGL Database</p>
+                    <p>Launch a Background Worker</p>
+                    <p>Render vs Heroku</p>
+                </div>
+                <div class="doc1">
+                    <div class="footerimg">
+                        <img src="images/sign in.svg" alt="">
+                        <p>Sign in</p>
+                    </div>
+                    <div class="footerimg">
+                        <img src="images/mail.svg" alt="">
+                        <p>Email us</p>
+                    </div>
+                    <div class="footerimg">
+                        <img src="images/comm.svg" alt="">
+                        <p>Community</p>
+                    </div>
+                    <div class="footerimg">
+                        <img src="images/sys.svg" alt="">
+                        <p>System Status</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="link">
+                    <img src="images/linkedin.svg" alt="">
+                    <img src="images/twitter.svg" alt="">
+                    <img src="images/github.svg" alt="">
+                </div>
+                <div class="terms">
+                    <p>Terms</p>
+                    <h2>.</h2>
+                    <p>Privacy</p>
+                    <h2>.</h2>
+                    <p>Security</p>
+                    <h2>.</h2>
+                    <p>© Render 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
