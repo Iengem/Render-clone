@@ -250,7 +250,7 @@ form p a{
     flex-direction: column;
     gap: 20px;
 }
-.top{
+.top, .top1{
     display: flex;
     gap:10px;
     align-items: center;
@@ -258,8 +258,9 @@ form p a{
     height: 7vh;
     background-color: rgb(67,81,232);
     width:100%;
+    z-index: 100;
 }
-.top p{
+.top p, .top1 p{
     font-family: 'Inter';
     color: rgb(67,81,232);
     background: rgb(138,250,220);
@@ -270,7 +271,7 @@ form p a{
     padding: 0px 5px;
     border-radius: 5px;
 }
-.top a{
+.top a, .top1 a{
     font-family: 'Inter';
     font-size: 15px;
     font-weight: 300;
@@ -279,20 +280,23 @@ form p a{
     color: white;
     text-decoration: none;
 }
-.top a:hover{
+.top a:hover, .top1 a:hover{
     color: rgb(81,232,191);
 }
-nav{
+nav, .nav{
     background-color: white;
     z-index: 100;
     display: flex;
     align-items: center;
-    position: sticky;
-    top: 0;
+    width: 100%;
     padding: 0px 20px;
     height: 7.9vh;
     padding-right: 30px;
     padding-left: 40px;
+}
+.nav{
+    position: sticky;
+    top: 0;
 }
 .nav_bar{
     width: 100%;
@@ -1449,19 +1453,28 @@ footer{
     color: rgb(63,67,88);
 }
 /* dropdown */
+.dropdown{
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+    background-color: rgb(246,246,246);
+    width: 100%;
+}
 .bar{
     padding: 30px;
-    position: fixed;
-    height: 100vh;
+    height: max-content;
     width: 100%;
-    z-index: 90;
-    background-color: rgb(246,246,246);
 }
 .buttons{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    padding-bottom: 70px;
+    gap: 40px;
 }
 .get-started{
     font-size: 16px;
@@ -1776,13 +1789,12 @@ footer{
         display: none;
     }
     nav{
-        padding-right: 2px;
+        padding-right: 22px;
     }
     .menu{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding-right: 15px;
         height: 100%;
         width: 100%;
     }
@@ -2111,6 +2123,10 @@ footer{
         text-align: center;
         padding: 0px 20px;
     }
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
 }
 @media only screen and (max-width:586px){
     .custom-shape-divider-top-1671088755 svg, .custom-shape-divider-bottom-1671088399 svg{
@@ -2137,10 +2153,7 @@ footer{
     }
 }
 @media only screen and (max-width:480px){
-    nav{
-        padding-left: 20px;
-    }
-    .top{
+    .top, .top1{
         flex-direction: column;
         height: 14vh;
         padding: 12px 0;
@@ -2148,7 +2161,7 @@ footer{
         padding-right: 5px;
         align-items: flex-start;
     }
-    .top a{
+    .top a, .top1 a{
         font-size: 14px;
     }
     .buzz{

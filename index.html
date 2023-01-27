@@ -14,7 +14,7 @@
         <p>Announcement</p>
         <a href="">Our Pricing has changed. Read more on our new pricing page.</a>
     </div>
-    <nav>
+    <nav class="nav">
         <img src="images/logo.svg" alt="logo">
         <div class="navbar">
             <a href="">Product</a>
@@ -25,7 +25,7 @@
             <a href="signup.html" target ='_blank' class="start">GET STARTED</a>
             <a href="signin.html" target ='_blank'>SIGN IN</a>
         </div>
-        <div class="menu">
+        <div class="menu" onclick="drop()">
             <div class="menu_lines">
                 <div class="line"></div>
                 <div class="line1"></div>
@@ -33,51 +33,78 @@
             </div>
         </div>
     </nav>
-    <div class="bar">
-        <div class="buttons">
-            <a href = 'signup.html' class="get-started">GET STARTED</a>
-            <a href= 'signin.html' class="sign_in">SIGN IN</a>
-            <h2>Product</h2>
-            <div class="features">
-                <div class="f-sec">
-                    <h2>FEATURES</h2>
-                    <p>Autoscaling</p>
-                    <p>Private Networking</p>
-                    <p>Managed PostgreSQL</p>
-                    <p>Managed Redis</p>
-                    <p>Persistent Disks</p>
-                    <p>Infrastructure as code</p>
-                    <p>Preview Environments</p>
-                    <p>Zero Downtime Deploys</p>
-                    <p>Render API</p>
+    <div class="dropdown">
+        <div class="nav-items">
+            <div class="top1">
+                <p>Announcement</p>
+                <a href="">Our Pricing has changed. Read more on our new pricing page.</a>
+            </div>
+            <nav>
+                <img src="images/logo.svg" alt="logo">
+                <div class="navbar">
+                    <a href="">Product</a>
+                    <a href="">Pricing</a>
+                    <a href="">Blog</a>
+                    <a href="">Docs</a>
+                    <a href="">Careers</a>
+                    <a href="signup.html" target ='_blank' class="start">GET STARTED</a>
+                    <a href="signin.html" target ='_blank'>SIGN IN</a>
                 </div>
-                <div class="f-sec">
-                    <h2>SERVICES</h2>
-                    <p>Static Sites</p>
-                    <p>Web Services</p>
-                    <p>Private Services</p>
-                    <p>Background Workers</p>
-                    <p>Cron Jobs</p>
-                    <p>PostgreSQL</p>
-                    <p>Redis</p>
-                </div>
-                <div class="f-sec">
-                    <h2>ENVIRONMENTS</h2>
-                    <div class="environ-grid">
-                        <img src="images/jsdash.svg" alt="pic">
-                        <img src="images/beaverdash.svg" alt="pic">
-                        <img src="images/pydash.svg" alt="pic">
-                        <img src="images/drop-dash.svg" alt="pic">
-                        <img src="images/diamond-dash.svg" alt="pic">
-                        <img src="images/r dash.svg" alt="pic">
-                        <img src="images/dock-dash.svg" alt="pic">
+                <div class="menu" onclick="drop()">
+                    <div class="menu_lines">
+                        <div class="line"></div>
+                        <div class="line1"></div>
+                        <div class="line"></div>
                     </div>
                 </div>
+            </nav>
+        </div>
+        <div class="bar">
+            <div class="buttons">
+                <a href = 'signup.html' class="get-started">GET STARTED</a>
+                <a href= 'signin.html' class="sign_in">SIGN IN</a>
+                <h2>Product</h2>
+                <div class="features">
+                    <div class="f-sec">
+                        <h2>FEATURES</h2>
+                        <p>Autoscaling</p>
+                        <p>Private Networking</p>
+                        <p>Managed PostgreSQL</p>
+                        <p>Managed Redis</p>
+                        <p>Persistent Disks</p>
+                        <p>Infrastructure as code</p>
+                        <p>Preview Environments</p>
+                        <p>Zero Downtime Deploys</p>
+                        <p>Render API</p>
+                    </div>
+                    <div class="f-sec">
+                        <h2>SERVICES</h2>
+                        <p>Static Sites</p>
+                        <p>Web Services</p>
+                        <p>Private Services</p>
+                        <p>Background Workers</p>
+                        <p>Cron Jobs</p>
+                        <p>PostgreSQL</p>
+                        <p>Redis</p>
+                    </div>
+                    <div class="f-sec">
+                        <h2>ENVIRONMENTS</h2>
+                        <div class="environ-grid">
+                            <img src="images/jsdash.svg" alt="pic">
+                            <img src="images/beaverdash.svg" alt="pic">
+                            <img src="images/pydash.svg" alt="pic">
+                            <img src="images/drop-dash.svg" alt="pic">
+                            <img src="images/diamond-dash.svg" alt="pic">
+                            <img src="images/r dash.svg" alt="pic">
+                            <img src="images/dock-dash.svg" alt="pic">
+                        </div>
+                    </div>
+                </div>
+                <h2>Pricing</h2>
+                <h2>Blog</h2>
+                <h2>Docs</h2>
+                <h2>Careers</h2>
             </div>
-            <h2>Pricing</h2>
-            <h2>Blog</h2>
-            <h2>Docs</h2>
-            <h2>Careers</h2>
         </div>
     </div>
     <div class="hero">
@@ -493,5 +520,6 @@
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
